@@ -25,6 +25,7 @@
 		3AB4D8A420FD0BBC0002B891 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89E20FD0BBC0002B891 /* HomeRouter.swift */; };
 		3AB4D8A520FD0BBC0002B891 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89F20FD0BBC0002B891 /* HomeViewController.swift */; };
 		3AB4D8A820FD0C0C0002B891 /* Vyayamshala.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4D8A720FD0C0C0002B891 /* Vyayamshala.storyboard */; };
+		3AB4D8AB20FD15FD0002B891 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D8AA20FD15FD0002B891 /* NavigationViewController.swift */; };
 		3ABA55EF1E3BCD4E00CFD24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */; };
 		3ABA55F11E3BCD4E00CFD24D /* GenericDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */; };
 		3ABA55F41E3BCD4E00CFD24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA55F21E3BCD4E00CFD24D /* Main.storyboard */; };
@@ -84,6 +85,7 @@
 		3AB4D89E20FD0BBC0002B891 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		3AB4D89F20FD0BBC0002B891 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3AB4D8A720FD0C0C0002B891 /* Vyayamshala.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vyayamshala.storyboard; sourceTree = "<group>"; };
+		3AB4D8AA20FD15FD0002B891 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		3ABA55EB1E3BCD4E00CFD24D /* Vyayamshala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vyayamshala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDrawerViewController.swift; sourceTree = "<group>"; };
@@ -186,6 +188,14 @@
 			name = Home;
 			sourceTree = "<group>";
 		};
+		3AB4D8A920FD15D50002B891 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3AB4D8AA20FD15FD0002B891 /* NavigationViewController.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
 		3ABA55E21E3BCD4D00CFD24D = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +222,7 @@
 		3ABA55ED1E3BCD4E00CFD24D /* Vyayamshala */ = {
 			isa = PBXGroup;
 			children = (
+				3AB4D8A920FD15D50002B891 /* Navigation */,
 				3AB4D89A20FD0B8B0002B891 /* Home */,
 				3AC8C6541E60B8B900032665 /* Constants_URL */,
 				3A1D94991E46E98100CDF890 /* GymAlernatives */,
@@ -376,11 +387,13 @@
 					};
 					3ABA56011E3BCD4E00CFD24D = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3ABA55EA1E3BCD4D00CFD24D;
 					};
 					3ABA560C1E3BCD4E00CFD24D = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3ABA55EA1E3BCD4D00CFD24D;
 					};
@@ -581,6 +594,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB4D8AB20FD15FD0002B891 /* NavigationViewController.swift in Sources */,
 				3AE83FE41E578149009F0676 /* DescriptionTableViewCell.swift in Sources */,
 				3AB4D8A120FD0BBC0002B891 /* HomeInteractor.swift in Sources */,
 				3ABA56211E3BD30600CFD24D /* ENSideMenu.swift in Sources */,
@@ -761,14 +775,14 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 69ZQ3P494A;
 				INFOPLIST_FILE = Vyayamshala/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saket.Vyayamshala;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Vyayamshala-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -782,13 +796,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 69ZQ3P494A;
 				INFOPLIST_FILE = Vyayamshala/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saket.Vyayamshala;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Vyayamshala-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -802,7 +816,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saket.VyayamshalaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vyayamshala.app/Vyayamshala";
 			};
 			name = Debug;
@@ -817,7 +832,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saket.VyayamshalaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vyayamshala.app/Vyayamshala";
 			};
 			name = Release;
@@ -831,7 +847,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saket.VyayamshalaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Vyayamshala;
 			};
 			name = Debug;
@@ -845,7 +862,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saket.VyayamshalaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Vyayamshala;
 			};
 			name = Release;

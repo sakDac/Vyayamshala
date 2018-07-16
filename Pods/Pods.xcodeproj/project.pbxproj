@@ -86,7 +86,7 @@
 		0091FE2E0C0B0B51F5E8A8ADD5C405C0 /* Pods-VyayamshalaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VyayamshalaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		02E20ED6E7078D4D386947BAF7489670 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
 		038A5C446A4764A3A05A51E38654FDDC /* Pods-VyayamshalaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VyayamshalaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		05599A3C95465A593BEB7306A03BB1DA /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		05599A3C95465A593BEB7306A03BB1DA /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDWebImage.modulemap; sourceTree = "<group>"; };
 		09546EC7D844B8FB2ABCFFC824962C62 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
 		0C45BE4A4EFD8AFEDC6DE13CBF7F52E3 /* Pods-VyayamshalaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VyayamshalaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C48A6FA95152B75EF752B632F88B226 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,13 +116,13 @@
 		41673914F9F468B22B01F129D062F31B /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		432F5BE5DF61BEC50FDB281381ABC44A /* GTMLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMLogger.h; path = Foundation/GTMLogger.h; sourceTree = "<group>"; };
 		4572FCB865B1F09BD0047644BC0B3A7D /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		486639377E071029BD54D8643053E3AD /* Pods-Vyayamshala.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Vyayamshala.modulemap"; sourceTree = "<group>"; };
+		486639377E071029BD54D8643053E3AD /* Pods-Vyayamshala.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Vyayamshala.modulemap"; sourceTree = "<group>"; };
 		4965837FA5EA87C9BC539184B2EB0ACC /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		4D339C48C84DE5340907A3A8C726414B /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		50069FEA6A270304F8D4B77FC245A3CE /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		508B632E075A49B01C3D43A920488B21 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
-		51DC62FF5B73626963E61ADC886A9649 /* Pods_VyayamshalaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VyayamshalaUITests.framework; path = "Pods-VyayamshalaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		545947F75B037A4F9379663DE10624CC /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51DC62FF5B73626963E61ADC886A9649 /* Pods_VyayamshalaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VyayamshalaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545947F75B037A4F9379663DE10624CC /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5866CD0303EC8FD713516F4C0F30838B /* Pods-VyayamshalaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VyayamshalaTests-umbrella.h"; sourceTree = "<group>"; };
 		5A2F4D83FC3415E9B165DA5A3562B8CC /* Pods-Vyayamshala-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vyayamshala-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A7BC4918F104CE0F4DDB42E8D3D8946 /* Pods-VyayamshalaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VyayamshalaUITests-dummy.m"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		6BDCCE9182E94D0B6948CB9F2E8C0910 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		78B6374610A25CCBBB26DC1CADFCEC9B /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		7F868EA834B4C4D71B138F553FAABA65 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
-		817993C7D754616A78A6929182E68338 /* Pods_VyayamshalaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VyayamshalaTests.framework; path = "Pods-VyayamshalaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		817993C7D754616A78A6929182E68338 /* Pods_VyayamshalaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VyayamshalaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F711D42DEC67D6C1F4F1A907740D8E /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
 		83C6B310459BF369174AB1554A90E7A9 /* Pods-Vyayamshala-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vyayamshala-umbrella.h"; sourceTree = "<group>"; };
 		848C72987F9D8B227265740A96E0CF04 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		8ED42A50802B5AAD9D9266B67845E497 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9047F4AA01773834F6707F9E40B5A2D8 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
 		924B66227EAC52F4BBEF1D3994F60172 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9757679632F4D96FB95D495ADE43F19A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9C0D52ACBC6F7BBBC6C042FCCA53BA84 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		9C2A1FE16F749E047ADDD93ABADB500D /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
@@ -161,26 +161,26 @@
 		CCDDF8447B58451581E9F409AE91F94B /* Pods-VyayamshalaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VyayamshalaUITests-frameworks.sh"; sourceTree = "<group>"; };
 		CF27BC47C87E20556D4B88F594078F60 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		CFA12C011580E3CF2E5A3F1C0EC78F63 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		CFAA03F7BC3BAD16CCEF28DD0AECA273 /* Pods_Vyayamshala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vyayamshala.framework; path = "Pods-Vyayamshala.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAA03F7BC3BAD16CCEF28DD0AECA273 /* Pods_Vyayamshala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vyayamshala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCB05AA46130E5568F8D5FE6B576DF0 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		D257D4AE15AD481E18BF4601CC8C4F38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D30F274F3648C7C654C917ACACF8D650 /* Pods-Vyayamshala-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vyayamshala-resources.sh"; sourceTree = "<group>"; };
 		D704CA05AEC067A21AF9BF6DF27C1680 /* GTMLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMLogger.m; path = Foundation/GTMLogger.m; sourceTree = "<group>"; };
 		D750066FBBC530E5F868B615E6C8F1BB /* Pods-Vyayamshala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vyayamshala.release.xcconfig"; sourceTree = "<group>"; };
 		D92893BFC5E03DD1BD0E26170124CF59 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
-		D9E1A9BA3B0321A465CB346EC5CE29BF /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3C79250B407EA5E4C3E75F77A93426B /* Pods-VyayamshalaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VyayamshalaUITests.modulemap"; sourceTree = "<group>"; };
+		D9E1A9BA3B0321A465CB346EC5CE29BF /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C79250B407EA5E4C3E75F77A93426B /* Pods-VyayamshalaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VyayamshalaUITests.modulemap"; sourceTree = "<group>"; };
 		E579A06CD2FCD8DA0509E2ABBE544877 /* Pods-VyayamshalaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VyayamshalaTests-resources.sh"; sourceTree = "<group>"; };
 		EA082663408A3580823F6FBB15D23DE1 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
 		EA095F94DE95690AF7D2542AC67118FE /* Pods-VyayamshalaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VyayamshalaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA505AF75E721636C7A725E9CE0803D2 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		EBD070666056DF4F9653F5A7105ADF5F /* Pods-Vyayamshala-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vyayamshala-frameworks.sh"; sourceTree = "<group>"; };
 		ED439C3B8675E37624178FA260366506 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
-		EDB1DCC00612DBD40AACD22C90730501 /* Pods-VyayamshalaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VyayamshalaTests.modulemap"; sourceTree = "<group>"; };
+		EDB1DCC00612DBD40AACD22C90730501 /* Pods-VyayamshalaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VyayamshalaTests.modulemap"; sourceTree = "<group>"; };
 		F26F2FDA3773BC042F61350CB7F19325 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		F5CC1CB43F0502ACDE8DA775445FA535 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		FCFFCEB164C95E163C3B53F8B39ED9B0 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
-		FE5E89AEA188571B21923D2975584B72 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		FE5E89AEA188571B21923D2975584B72 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,7 +234,6 @@
 				8554CFC10E8C42A1B5B8BEAE6D211E6F /* Core */,
 				924383A0DC35FEB0EB63BD4149BB6F6F /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -288,7 +287,6 @@
 			children = (
 				1E821100FB4A60782D2F410A14876FF8 /* Frameworks */,
 			);
-			name = FirebaseCore;
 			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
@@ -321,7 +319,6 @@
 			children = (
 				B021FC41B138D679E6C3FCCE8BFEDBF2 /* Frameworks */,
 			);
-			name = FirebaseCrash;
 			path = FirebaseCrash;
 			sourceTree = "<group>";
 		};
@@ -353,7 +350,6 @@
 				196C3F941FE63EC02BF04CAFFEFA4B38 /* FIRInstanceID.h */,
 				356163B2375A6C3C6B467D42CE8F5461 /* Frameworks */,
 			);
-			name = FirebaseInstanceID;
 			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
@@ -362,7 +358,6 @@
 			children = (
 				ACB82A1420E73160F3476BEB6FC0CE12 /* Frameworks */,
 			);
-			name = GoogleInterchangeUtilities;
 			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
@@ -379,7 +374,6 @@
 			children = (
 				62D1A09A04FEFC9AF05A5A9453A8BB53 /* Core */,
 			);
-			name = Firebase;
 			path = Firebase;
 			sourceTree = "<group>";
 		};
@@ -426,7 +420,6 @@
 			children = (
 				4CFDA132CDDFF64A5837FB70684175AE /* Frameworks */,
 			);
-			name = GoogleSymbolUtilities;
 			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
@@ -477,7 +470,6 @@
 			children = (
 				D3FD9C29D4AC1B89FEEBA7FD9795BDAF /* Frameworks */,
 			);
-			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
@@ -503,7 +495,6 @@
 				0784D470F3C1EC7BD79DACF44DB38DEE /* NSData+zlib */,
 				4BD18558902785583ECB8CC803BFBEA8 /* Support Files */,
 			);
-			name = GoogleToolboxForMac;
 			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
@@ -748,6 +739,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					C5B80060FE8C664DF08841000F41D515 = {
+						LastSwiftMigration = 0940;
+					};
+					DF53FBB6EAF2E7B9886392B62E6C33C1 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -908,7 +907,8 @@
 				PRODUCT_NAME = SDWebImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -940,7 +940,8 @@
 				PRODUCT_NAME = GoogleToolboxForMac;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1077,7 +1078,8 @@
 				PRODUCT_NAME = GoogleToolboxForMac;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1223,7 +1225,8 @@
 				PRODUCT_NAME = SDWebImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
