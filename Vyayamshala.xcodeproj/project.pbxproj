@@ -19,6 +19,12 @@
 		3AB3FDC41E3C923A00B18B61 /* PeopleAndStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */; };
 		3AB3FDC71E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */; };
 		3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */; };
+		3AB4D8A120FD0BBC0002B891 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89B20FD0BBC0002B891 /* HomeInteractor.swift */; };
+		3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */; };
+		3AB4D8A320FD0BBC0002B891 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89D20FD0BBC0002B891 /* HomeProtocols.swift */; };
+		3AB4D8A420FD0BBC0002B891 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89E20FD0BBC0002B891 /* HomeRouter.swift */; };
+		3AB4D8A520FD0BBC0002B891 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89F20FD0BBC0002B891 /* HomeViewController.swift */; };
+		3AB4D8A820FD0C0C0002B891 /* Vyayamshala.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4D8A720FD0C0C0002B891 /* Vyayamshala.storyboard */; };
 		3ABA55EF1E3BCD4E00CFD24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */; };
 		3ABA55F11E3BCD4E00CFD24D /* GenericDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */; };
 		3ABA55F41E3BCD4E00CFD24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA55F21E3BCD4E00CFD24D /* Main.storyboard */; };
@@ -72,6 +78,12 @@
 		3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesViewController.swift; sourceTree = "<group>"; };
 		3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingBannerImagesTableViewCell.swift; sourceTree = "<group>"; };
 		3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VyayamshalaConstants.swift; sourceTree = "<group>"; };
+		3AB4D89B20FD0BBC0002B891 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		3AB4D89D20FD0BBC0002B891 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		3AB4D89E20FD0BBC0002B891 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		3AB4D89F20FD0BBC0002B891 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3AB4D8A720FD0C0C0002B891 /* Vyayamshala.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vyayamshala.storyboard; sourceTree = "<group>"; };
 		3ABA55EB1E3BCD4E00CFD24D /* Vyayamshala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vyayamshala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDrawerViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +174,18 @@
 			name = FitnessAndDiet;
 			sourceTree = "<group>";
 		};
+		3AB4D89A20FD0B8B0002B891 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3AB4D89B20FD0BBC0002B891 /* HomeInteractor.swift */,
+				3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */,
+				3AB4D89D20FD0BBC0002B891 /* HomeProtocols.swift */,
+				3AB4D89E20FD0BBC0002B891 /* HomeRouter.swift */,
+				3AB4D89F20FD0BBC0002B891 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		3ABA55E21E3BCD4D00CFD24D = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +212,7 @@
 		3ABA55ED1E3BCD4E00CFD24D /* Vyayamshala */ = {
 			isa = PBXGroup;
 			children = (
+				3AB4D89A20FD0B8B0002B891 /* Home */,
 				3AC8C6541E60B8B900032665 /* Constants_URL */,
 				3A1D94991E46E98100CDF890 /* GymAlernatives */,
 				3AB3FDBE1E3C89FB00B18B61 /* FitnessAndDiet */,
@@ -202,6 +227,7 @@
 				3ABA55F51E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld */,
 				3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */,
 				3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */,
+				3AB4D8A720FD0C0C0002B891 /* Vyayamshala.storyboard */,
 			);
 			path = Vyayamshala;
 			sourceTree = "<group>";
@@ -390,6 +416,7 @@
 				3ABA55F91E3BCD4E00CFD24D /* Assets.xcassets in Resources */,
 				3ABA55F41E3BCD4E00CFD24D /* Main.storyboard in Resources */,
 				3A5F64051E54CDBD000FFA67 /* GymAlternatives.storyboard in Resources */,
+				3AB4D8A820FD0C0C0002B891 /* Vyayamshala.storyboard in Resources */,
 				3AB3FDC21E3C910C00B18B61 /* PeopleAndStroies.storyboard in Resources */,
 				3A3728AD1E5032CE004D92FB /* GoogleService-Info.plist in Resources */,
 			);
@@ -555,8 +582,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE83FE41E578149009F0676 /* DescriptionTableViewCell.swift in Sources */,
+				3AB4D8A120FD0BBC0002B891 /* HomeInteractor.swift in Sources */,
 				3ABA56211E3BD30600CFD24D /* ENSideMenu.swift in Sources */,
+				3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */,
+				3AB4D8A320FD0BBC0002B891 /* HomeProtocols.swift in Sources */,
 				3ABA56251E3BD3DE00CFD24D /* SideMenuTableViewController.swift in Sources */,
+				3AB4D8A520FD0BBC0002B891 /* HomeViewController.swift in Sources */,
 				3ABA55F11E3BCD4E00CFD24D /* GenericDrawerViewController.swift in Sources */,
 				3AB3FDC71E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift in Sources */,
 				3AD4A1791E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift in Sources */,
@@ -572,6 +603,7 @@
 				3ABA56271E3BD4AF00CFD24D /* SideMenuNavigationController.swift in Sources */,
 				3ABA55F71E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld in Sources */,
 				3AB3FDC41E3C923A00B18B61 /* PeopleAndStoriesViewController.swift in Sources */,
+				3AB4D8A420FD0BBC0002B891 /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
