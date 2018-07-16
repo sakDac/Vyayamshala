@@ -26,11 +26,6 @@ public class ENSideMenuNavigationController: UINavigationController, ENSideMenuP
         super.init(coder: aDecoder)
     }
     
-    public override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     // MARK: - Navigation
     public func setContentViewController(contentViewController: UIViewController) {
         self.sideMenu?.toggleMenu()

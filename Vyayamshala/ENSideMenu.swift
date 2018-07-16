@@ -33,7 +33,7 @@ public extension UIViewController {
         
     }
     
-    public func toggleSideMenuView () {
+   @objc public func toggleSideMenuView () {
         self.dismissKeyboard()
         sideMenuController()?.sideMenu?.toggleMenu()
     }
@@ -396,18 +396,18 @@ public class ENSideMenu : NSObject, UIGestureRecognizerDelegate {
     }
     
     
-    internal func backgroundViewTapped(recognizer: UITapGestureRecognizer) {
+    @objc internal func backgroundViewTapped(recognizer: UITapGestureRecognizer) {
         self.backgroundView.isHidden = true
         self.hideSideMenu()
     }
     
     
-    internal func handleGesture(gesture: UISwipeGestureRecognizer) {
+    @objc internal func handleGesture(gesture: UISwipeGestureRecognizer) {
         toggleMenu(shouldOpen: (self.menuPosition == .Right && gesture.direction == .left)
             || (self.menuPosition == .Left && gesture.direction == .right))
     }
     
-    internal func handlePan(recognizer : UIPanGestureRecognizer){
+    @objc internal func handlePan(recognizer : UIPanGestureRecognizer){
         
         let leftToRight = recognizer.velocity(in: recognizer.view).x > 0
         

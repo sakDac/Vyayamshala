@@ -52,7 +52,7 @@ class ScrollingBannerImagesTableViewCell: UITableViewCell ,UIScrollViewDelegate 
         self.UiScrollView.contentSize = CGSize(width : self.UiScrollView.frame.size.width * CGFloat(imagesList.count),height : self.UiScrollView.frame.size.height)
     }
     
-    func setAutoScroll () {
+    @objc func setAutoScroll () {
         if !self.imagesList.isEmpty {
             if self.timerValue > 4 {
                 self.timerValue = 0
