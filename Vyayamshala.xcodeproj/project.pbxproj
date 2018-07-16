@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3728AD1E5032CE004D92FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */; };
+		3A4BDD4D1E45FDCF0037E266 /* FitnessViewCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BDD4C1E45FDCF0037E266 /* FitnessViewCollectionController.swift */; };
+		3A4BDD4F1E462BB90037E266 /* FitnessCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BDD4E1E462BB90037E266 /* FitnessCollectionViewCell.swift */; };
+		3A4BDD511E464C310037E266 /* FitnessDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BDD501E464C310037E266 /* FitnessDetailsViewController.swift */; };
+		3A5F64051E54CDBD000FFA67 /* GymAlternatives.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5F64041E54CDBD000FFA67 /* GymAlternatives.storyboard */; };
+		3A5F64071E54CE7D000FFA67 /* GymAletnativesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5F64061E54CE7C000FFA67 /* GymAletnativesViewController.swift */; };
+		3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4770F1E61898C003AB322 /* URL_Gym.swift */; };
+		3AB3FDC01E3C8B8900B18B61 /* Fitness.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */; };
+		3AB3FDC21E3C910C00B18B61 /* PeopleAndStroies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC11E3C910C00B18B61 /* PeopleAndStroies.storyboard */; };
+		3AB3FDC41E3C923A00B18B61 /* PeopleAndStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */; };
+		3AB3FDC71E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */; };
+		3AB3FDCB1E3D0B1C00B18B61 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDCA1E3D0B1C00B18B61 /* File.swift */; };
+		3ABA55EF1E3BCD4E00CFD24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */; };
+		3ABA55F11E3BCD4E00CFD24D /* GenericDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */; };
+		3ABA55F41E3BCD4E00CFD24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA55F21E3BCD4E00CFD24D /* Main.storyboard */; };
+		3ABA55F71E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55F51E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld */; };
+		3ABA55F91E3BCD4E00CFD24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA55F81E3BCD4E00CFD24D /* Assets.xcassets */; };
+		3ABA55FC1E3BCD4E00CFD24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA55FA1E3BCD4E00CFD24D /* LaunchScreen.storyboard */; };
+		3ABA56071E3BCD4E00CFD24D /* VyayamshalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56061E3BCD4E00CFD24D /* VyayamshalaTests.swift */; };
+		3ABA56121E3BCD4E00CFD24D /* VyayamshalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56111E3BCD4E00CFD24D /* VyayamshalaUITests.swift */; };
+		3ABA56211E3BD30600CFD24D /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56201E3BD30600CFD24D /* ENSideMenu.swift */; };
+		3ABA56231E3BD34200CFD24D /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56221E3BD34200CFD24D /* ENSideMenuNavigationController.swift */; };
+		3ABA56251E3BD3DE00CFD24D /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56241E3BD3DE00CFD24D /* SideMenuTableViewController.swift */; };
+		3ABA56271E3BD4AF00CFD24D /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56261E3BD4AF00CFD24D /* SideMenuNavigationController.swift */; };
+		3AC8C6561E60B8FC00032665 /* URL_Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8C6551E60B8FC00032665 /* URL_Food.swift */; };
+		3AD4A1791E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4A1781E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift */; };
+		3AE83FE41E578149009F0676 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE83FE31E578149009F0676 /* DescriptionTableViewCell.swift */; };
+		8E207DCDC6B2E9060A5AFC84 /* Pods_VyayamshalaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92AEA3364CB028F59D3B4BE /* Pods_VyayamshalaTests.framework */; };
+		8FFA6182729C4B7BA5CB6945 /* Pods_VyayamshalaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BF236C1FD0B2D84D47FA55 /* Pods_VyayamshalaUITests.framework */; };
+		B8CF1CFE802B882AD9159AB0 /* Pods_Vyayamshala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1306E50B99BBD5C7530D9396 /* Pods_Vyayamshala.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ABA56031E3BCD4E00CFD24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ABA55E31E3BCD4D00CFD24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ABA55EA1E3BCD4D00CFD24D;
+			remoteInfo = Vyayamshala;
+		};
+		3ABA560E1E3BCD4E00CFD24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ABA55E31E3BCD4D00CFD24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ABA55EA1E3BCD4D00CFD24D;
+			remoteInfo = Vyayamshala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DFD41AAD5870B3B00E1E0F8 /* Pods-Vyayamshala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vyayamshala.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vyayamshala/Pods-Vyayamshala.debug.xcconfig"; sourceTree = "<group>"; };
+		1306E50B99BBD5C7530D9396 /* Pods_Vyayamshala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vyayamshala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A21FBA61E5F807F002E3220 /* Vyayamshala-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vyayamshala-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A4BDD4C1E45FDCF0037E266 /* FitnessViewCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessViewCollectionController.swift; sourceTree = "<group>"; };
+		3A4BDD4E1E462BB90037E266 /* FitnessCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessCollectionViewCell.swift; sourceTree = "<group>"; };
+		3A4BDD501E464C310037E266 /* FitnessDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessDetailsViewController.swift; sourceTree = "<group>"; };
+		3A5F64041E54CDBD000FFA67 /* GymAlternatives.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GymAlternatives.storyboard; sourceTree = "<group>"; };
+		3A5F64061E54CE7C000FFA67 /* GymAletnativesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymAletnativesViewController.swift; sourceTree = "<group>"; };
+		3AA4770F1E61898C003AB322 /* URL_Gym.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Gym.swift; sourceTree = "<group>"; };
+		3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fitness.storyboard; sourceTree = "<group>"; };
+		3AB3FDC11E3C910C00B18B61 /* PeopleAndStroies.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PeopleAndStroies.storyboard; sourceTree = "<group>"; };
+		3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesViewController.swift; sourceTree = "<group>"; };
+		3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingBannerImagesTableViewCell.swift; sourceTree = "<group>"; };
+		3AB3FDCA1E3D0B1C00B18B61 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3ABA55EB1E3BCD4E00CFD24D /* Vyayamshala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vyayamshala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDrawerViewController.swift; sourceTree = "<group>"; };
+		3ABA55F31E3BCD4E00CFD24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ABA55F61E3BCD4E00CFD24D /* Vyayamshala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vyayamshala.xcdatamodel; sourceTree = "<group>"; };
+		3ABA55F81E3BCD4E00CFD24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ABA55FB1E3BCD4E00CFD24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ABA55FD1E3BCD4E00CFD24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABA56021E3BCD4E00CFD24D /* VyayamshalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VyayamshalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABA56061E3BCD4E00CFD24D /* VyayamshalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VyayamshalaTests.swift; sourceTree = "<group>"; };
+		3ABA56081E3BCD4E00CFD24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABA560D1E3BCD4E00CFD24D /* VyayamshalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VyayamshalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABA56111E3BCD4E00CFD24D /* VyayamshalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VyayamshalaUITests.swift; sourceTree = "<group>"; };
+		3ABA56131E3BCD4E00CFD24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABA56201E3BD30600CFD24D /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		3ABA56221E3BD34200CFD24D /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		3ABA56241E3BD3DE00CFD24D /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		3ABA56261E3BD4AF00CFD24D /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		3AC8C6551E60B8FC00032665 /* URL_Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Food.swift; sourceTree = "<group>"; };
+		3AD4A1781E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndStoryTableViewCell.swift; sourceTree = "<group>"; };
+		3AE83FE31E578149009F0676 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		A3362A70B58014E0B59F8208 /* Pods-Vyayamshala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vyayamshala.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vyayamshala/Pods-Vyayamshala.release.xcconfig"; sourceTree = "<group>"; };
+		C2F75410F963C8BAC099F4CA /* Pods-VyayamshalaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VyayamshalaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VyayamshalaUITests/Pods-VyayamshalaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6BF236C1FD0B2D84D47FA55 /* Pods_VyayamshalaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VyayamshalaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD2D4868B1148114DE51CEE /* Pods-VyayamshalaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VyayamshalaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VyayamshalaTests/Pods-VyayamshalaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E798704858E819C2E21F5F6E /* Pods-VyayamshalaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VyayamshalaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VyayamshalaUITests/Pods-VyayamshalaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E92AEA3364CB028F59D3B4BE /* Pods_VyayamshalaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VyayamshalaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE96B8E8AC9F6AB31D27370 /* Pods-VyayamshalaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VyayamshalaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VyayamshalaTests/Pods-VyayamshalaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ABA55E81E3BCD4D00CFD24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CF1CFE802B882AD9159AB0 /* Pods_Vyayamshala.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABA55FF1E3BCD4E00CFD24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E207DCDC6B2E9060A5AFC84 /* Pods_VyayamshalaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABA560A1E3BCD4E00CFD24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFA6182729C4B7BA5CB6945 /* Pods_VyayamshalaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1D94991E46E98100CDF890 /* GymAlernatives */ = {
+			isa = PBXGroup;
+			children = (
+				3A5F64041E54CDBD000FFA67 /* GymAlternatives.storyboard */,
+				3A5F64061E54CE7C000FFA67 /* GymAletnativesViewController.swift */,
+				3AE83FE31E578149009F0676 /* DescriptionTableViewCell.swift */,
+			);
+			name = GymAlernatives;
+			sourceTree = "<group>";
+		};
+		3AB3FDBD1E3C82E600B18B61 /* PeopleAndStories */ = {
+			isa = PBXGroup;
+			children = (
+				3AB3FDC11E3C910C00B18B61 /* PeopleAndStroies.storyboard */,
+				3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */,
+				3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */,
+				3AD4A1781E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift */,
+			);
+			name = PeopleAndStories;
+			sourceTree = "<group>";
+		};
+		3AB3FDBE1E3C89FB00B18B61 /* FitnessAndDiet */ = {
+			isa = PBXGroup;
+			children = (
+				3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */,
+				3A4BDD4C1E45FDCF0037E266 /* FitnessViewCollectionController.swift */,
+				3A4BDD4E1E462BB90037E266 /* FitnessCollectionViewCell.swift */,
+				3A4BDD501E464C310037E266 /* FitnessDetailsViewController.swift */,
+			);
+			name = FitnessAndDiet;
+			sourceTree = "<group>";
+		};
+		3ABA55E21E3BCD4D00CFD24D = {
+			isa = PBXGroup;
+			children = (
+				3ABA55ED1E3BCD4E00CFD24D /* Vyayamshala */,
+				3ABA56051E3BCD4E00CFD24D /* VyayamshalaTests */,
+				3ABA56101E3BCD4E00CFD24D /* VyayamshalaUITests */,
+				3ABA55EC1E3BCD4E00CFD24D /* Products */,
+				746AAEDCE29E73DFA39822CD /* Pods */,
+				6C465C14259981A698571BDC /* Frameworks */,
+				3A21FBA61E5F807F002E3220 /* Vyayamshala-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		3ABA55EC1E3BCD4E00CFD24D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ABA55EB1E3BCD4E00CFD24D /* Vyayamshala.app */,
+				3ABA56021E3BCD4E00CFD24D /* VyayamshalaTests.xctest */,
+				3ABA560D1E3BCD4E00CFD24D /* VyayamshalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ABA55ED1E3BCD4E00CFD24D /* Vyayamshala */ = {
+			isa = PBXGroup;
+			children = (
+				3AC8C6541E60B8B900032665 /* Constants_URL */,
+				3A1D94991E46E98100CDF890 /* GymAlernatives */,
+				3AB3FDBE1E3C89FB00B18B61 /* FitnessAndDiet */,
+				3AB3FDBD1E3C82E600B18B61 /* PeopleAndStories */,
+				3ABA561F1E3BD2AC00CFD24D /* SideMenuGroup */,
+				3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */,
+				3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */,
+				3ABA55F21E3BCD4E00CFD24D /* Main.storyboard */,
+				3ABA55F81E3BCD4E00CFD24D /* Assets.xcassets */,
+				3ABA55FA1E3BCD4E00CFD24D /* LaunchScreen.storyboard */,
+				3ABA55FD1E3BCD4E00CFD24D /* Info.plist */,
+				3ABA55F51E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld */,
+				3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */,
+				3AB3FDCA1E3D0B1C00B18B61 /* File.swift */,
+			);
+			path = Vyayamshala;
+			sourceTree = "<group>";
+		};
+		3ABA56051E3BCD4E00CFD24D /* VyayamshalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ABA56061E3BCD4E00CFD24D /* VyayamshalaTests.swift */,
+				3ABA56081E3BCD4E00CFD24D /* Info.plist */,
+			);
+			path = VyayamshalaTests;
+			sourceTree = "<group>";
+		};
+		3ABA56101E3BCD4E00CFD24D /* VyayamshalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ABA56111E3BCD4E00CFD24D /* VyayamshalaUITests.swift */,
+				3ABA56131E3BCD4E00CFD24D /* Info.plist */,
+			);
+			path = VyayamshalaUITests;
+			sourceTree = "<group>";
+		};
+		3ABA561F1E3BD2AC00CFD24D /* SideMenuGroup */ = {
+			isa = PBXGroup;
+			children = (
+				3ABA56201E3BD30600CFD24D /* ENSideMenu.swift */,
+				3ABA56221E3BD34200CFD24D /* ENSideMenuNavigationController.swift */,
+				3ABA56241E3BD3DE00CFD24D /* SideMenuTableViewController.swift */,
+				3ABA56261E3BD4AF00CFD24D /* SideMenuNavigationController.swift */,
+			);
+			name = SideMenuGroup;
+			sourceTree = "<group>";
+		};
+		3AC8C6541E60B8B900032665 /* Constants_URL */ = {
+			isa = PBXGroup;
+			children = (
+				3AC8C6551E60B8FC00032665 /* URL_Food.swift */,
+				3AA4770F1E61898C003AB322 /* URL_Gym.swift */,
+			);
+			name = Constants_URL;
+			sourceTree = "<group>";
+		};
+		6C465C14259981A698571BDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1306E50B99BBD5C7530D9396 /* Pods_Vyayamshala.framework */,
+				E92AEA3364CB028F59D3B4BE /* Pods_VyayamshalaTests.framework */,
+				D6BF236C1FD0B2D84D47FA55 /* Pods_VyayamshalaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		746AAEDCE29E73DFA39822CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DFD41AAD5870B3B00E1E0F8 /* Pods-Vyayamshala.debug.xcconfig */,
+				A3362A70B58014E0B59F8208 /* Pods-Vyayamshala.release.xcconfig */,
+				DFD2D4868B1148114DE51CEE /* Pods-VyayamshalaTests.debug.xcconfig */,
+				EAE96B8E8AC9F6AB31D27370 /* Pods-VyayamshalaTests.release.xcconfig */,
+				C2F75410F963C8BAC099F4CA /* Pods-VyayamshalaUITests.debug.xcconfig */,
+				E798704858E819C2E21F5F6E /* Pods-VyayamshalaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ABA55EA1E3BCD4D00CFD24D /* Vyayamshala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ABA56161E3BCD4E00CFD24D /* Build configuration list for PBXNativeTarget "Vyayamshala" */;
+			buildPhases = (
+				D74E6CA8A4CA327477D0A090 /* [CP] Check Pods Manifest.lock */,
+				3ABA55E71E3BCD4D00CFD24D /* Sources */,
+				3ABA55E81E3BCD4D00CFD24D /* Frameworks */,
+				3ABA55E91E3BCD4D00CFD24D /* Resources */,
+				CA3C8EBEE6750B2F2462074A /* [CP] Embed Pods Frameworks */,
+				98E4DE3B7955579A7BEB7BDF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vyayamshala;
+			productName = Vyayamshala;
+			productReference = 3ABA55EB1E3BCD4E00CFD24D /* Vyayamshala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ABA56011E3BCD4E00CFD24D /* VyayamshalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ABA56191E3BCD4E00CFD24D /* Build configuration list for PBXNativeTarget "VyayamshalaTests" */;
+			buildPhases = (
+				A026CF9012BF63DF62D9B77B /* [CP] Check Pods Manifest.lock */,
+				3ABA55FE1E3BCD4E00CFD24D /* Sources */,
+				3ABA55FF1E3BCD4E00CFD24D /* Frameworks */,
+				3ABA56001E3BCD4E00CFD24D /* Resources */,
+				EB9DAD6A8226B7E9C0912FB7 /* [CP] Embed Pods Frameworks */,
+				C58DF5598C7FABC578D035D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ABA56041E3BCD4E00CFD24D /* PBXTargetDependency */,
+			);
+			name = VyayamshalaTests;
+			productName = VyayamshalaTests;
+			productReference = 3ABA56021E3BCD4E00CFD24D /* VyayamshalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ABA560C1E3BCD4E00CFD24D /* VyayamshalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ABA561C1E3BCD4E00CFD24D /* Build configuration list for PBXNativeTarget "VyayamshalaUITests" */;
+			buildPhases = (
+				35059C8E33FF94A1B9C39D49 /* [CP] Check Pods Manifest.lock */,
+				3ABA56091E3BCD4E00CFD24D /* Sources */,
+				3ABA560A1E3BCD4E00CFD24D /* Frameworks */,
+				3ABA560B1E3BCD4E00CFD24D /* Resources */,
+				E8E93DE51F08A19D5FC042A6 /* [CP] Embed Pods Frameworks */,
+				A0443641011EACA3608B9ABD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ABA560F1E3BCD4E00CFD24D /* PBXTargetDependency */,
+			);
+			name = VyayamshalaUITests;
+			productName = VyayamshalaUITests;
+			productReference = 3ABA560D1E3BCD4E00CFD24D /* VyayamshalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ABA55E31E3BCD4D00CFD24D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "saket bhushan";
+				TargetAttributes = {
+					3ABA55EA1E3BCD4D00CFD24D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 69ZQ3P494A;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					3ABA56011E3BCD4E00CFD24D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ABA55EA1E3BCD4D00CFD24D;
+					};
+					3ABA560C1E3BCD4E00CFD24D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ABA55EA1E3BCD4D00CFD24D;
+					};
+				};
+			};
+			buildConfigurationList = 3ABA55E61E3BCD4D00CFD24D /* Build configuration list for PBXProject "Vyayamshala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ABA55E21E3BCD4D00CFD24D;
+			productRefGroup = 3ABA55EC1E3BCD4E00CFD24D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ABA55EA1E3BCD4D00CFD24D /* Vyayamshala */,
+				3ABA56011E3BCD4E00CFD24D /* VyayamshalaTests */,
+				3ABA560C1E3BCD4E00CFD24D /* VyayamshalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ABA55E91E3BCD4D00CFD24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABA55FC1E3BCD4E00CFD24D /* LaunchScreen.storyboard in Resources */,
+				3AB3FDC01E3C8B8900B18B61 /* Fitness.storyboard in Resources */,
+				3ABA55F91E3BCD4E00CFD24D /* Assets.xcassets in Resources */,
+				3ABA55F41E3BCD4E00CFD24D /* Main.storyboard in Resources */,
+				3A5F64051E54CDBD000FFA67 /* GymAlternatives.storyboard in Resources */,
+				3AB3FDC21E3C910C00B18B61 /* PeopleAndStroies.storyboard in Resources */,
+				3A3728AD1E5032CE004D92FB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABA56001E3BCD4E00CFD24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABA560B1E3BCD4E00CFD24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35059C8E33FF94A1B9C39D49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98E4DE3B7955579A7BEB7BDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vyayamshala/Pods-Vyayamshala-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A026CF9012BF63DF62D9B77B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0443641011EACA3608B9ABD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VyayamshalaUITests/Pods-VyayamshalaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58DF5598C7FABC578D035D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VyayamshalaTests/Pods-VyayamshalaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3C8EBEE6750B2F2462074A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vyayamshala/Pods-Vyayamshala-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74E6CA8A4CA327477D0A090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E93DE51F08A19D5FC042A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VyayamshalaUITests/Pods-VyayamshalaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9DAD6A8226B7E9C0912FB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VyayamshalaTests/Pods-VyayamshalaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ABA55E71E3BCD4D00CFD24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE83FE41E578149009F0676 /* DescriptionTableViewCell.swift in Sources */,
+				3ABA56211E3BD30600CFD24D /* ENSideMenu.swift in Sources */,
+				3ABA56251E3BD3DE00CFD24D /* SideMenuTableViewController.swift in Sources */,
+				3ABA55F11E3BCD4E00CFD24D /* GenericDrawerViewController.swift in Sources */,
+				3AB3FDC71E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift in Sources */,
+				3AD4A1791E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift in Sources */,
+				3AC8C6561E60B8FC00032665 /* URL_Food.swift in Sources */,
+				3ABA55EF1E3BCD4E00CFD24D /* AppDelegate.swift in Sources */,
+				3A4BDD511E464C310037E266 /* FitnessDetailsViewController.swift in Sources */,
+				3A5F64071E54CE7D000FFA67 /* GymAletnativesViewController.swift in Sources */,
+				3A4BDD4F1E462BB90037E266 /* FitnessCollectionViewCell.swift in Sources */,
+				3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */,
+				3AB3FDCB1E3D0B1C00B18B61 /* File.swift in Sources */,
+				3A4BDD4D1E45FDCF0037E266 /* FitnessViewCollectionController.swift in Sources */,
+				3ABA56231E3BD34200CFD24D /* ENSideMenuNavigationController.swift in Sources */,
+				3ABA56271E3BD4AF00CFD24D /* SideMenuNavigationController.swift in Sources */,
+				3ABA55F71E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld in Sources */,
+				3AB3FDC41E3C923A00B18B61 /* PeopleAndStoriesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABA55FE1E3BCD4E00CFD24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABA56071E3BCD4E00CFD24D /* VyayamshalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABA56091E3BCD4E00CFD24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABA56121E3BCD4E00CFD24D /* VyayamshalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ABA56041E3BCD4E00CFD24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ABA55EA1E3BCD4D00CFD24D /* Vyayamshala */;
+			targetProxy = 3ABA56031E3BCD4E00CFD24D /* PBXContainerItemProxy */;
+		};
+		3ABA560F1E3BCD4E00CFD24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ABA55EA1E3BCD4D00CFD24D /* Vyayamshala */;
+			targetProxy = 3ABA560E1E3BCD4E00CFD24D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ABA55F21E3BCD4E00CFD24D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ABA55F31E3BCD4E00CFD24D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ABA55FA1E3BCD4E00CFD24D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ABA55FB1E3BCD4E00CFD24D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ABA56141E3BCD4E00CFD24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ABA56151E3BCD4E00CFD24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ABA56171E3BCD4E00CFD24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFD41AAD5870B3B00E1E0F8 /* Pods-Vyayamshala.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 69ZQ3P494A;
+				INFOPLIST_FILE = Vyayamshala/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saket.Vyayamshala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vyayamshala-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3ABA56181E3BCD4E00CFD24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3362A70B58014E0B59F8208 /* Pods-Vyayamshala.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 69ZQ3P494A;
+				INFOPLIST_FILE = Vyayamshala/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saket.Vyayamshala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vyayamshala-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3ABA561A1E3BCD4E00CFD24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD2D4868B1148114DE51CEE /* Pods-VyayamshalaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VyayamshalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saket.VyayamshalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vyayamshala.app/Vyayamshala";
+			};
+			name = Debug;
+		};
+		3ABA561B1E3BCD4E00CFD24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE96B8E8AC9F6AB31D27370 /* Pods-VyayamshalaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VyayamshalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saket.VyayamshalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vyayamshala.app/Vyayamshala";
+			};
+			name = Release;
+		};
+		3ABA561D1E3BCD4E00CFD24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F75410F963C8BAC099F4CA /* Pods-VyayamshalaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VyayamshalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saket.VyayamshalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vyayamshala;
+			};
+			name = Debug;
+		};
+		3ABA561E1E3BCD4E00CFD24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E798704858E819C2E21F5F6E /* Pods-VyayamshalaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VyayamshalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saket.VyayamshalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vyayamshala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ABA55E61E3BCD4D00CFD24D /* Build configuration list for PBXProject "Vyayamshala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABA56141E3BCD4E00CFD24D /* Debug */,
+				3ABA56151E3BCD4E00CFD24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ABA56161E3BCD4E00CFD24D /* Build configuration list for PBXNativeTarget "Vyayamshala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABA56171E3BCD4E00CFD24D /* Debug */,
+				3ABA56181E3BCD4E00CFD24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ABA56191E3BCD4E00CFD24D /* Build configuration list for PBXNativeTarget "VyayamshalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABA561A1E3BCD4E00CFD24D /* Debug */,
+				3ABA561B1E3BCD4E00CFD24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ABA561C1E3BCD4E00CFD24D /* Build configuration list for PBXNativeTarget "VyayamshalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABA561D1E3BCD4E00CFD24D /* Debug */,
+				3ABA561E1E3BCD4E00CFD24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3ABA55F51E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3ABA55F61E3BCD4E00CFD24D /* Vyayamshala.xcdatamodel */,
+			);
+			currentVersion = 3ABA55F61E3BCD4E00CFD24D /* Vyayamshala.xcdatamodel */;
+			path = Vyayamshala.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3ABA55E31E3BCD4D00CFD24D /* Project object */;
+}

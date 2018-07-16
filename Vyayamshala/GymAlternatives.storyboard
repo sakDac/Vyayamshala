@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Han-sJ-Vu7">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Senfina Navigation View Controller-->
+        <scene sceneID="9Uv-q0-Ld9">
+            <objects>
+                <navigationController storyboardIdentifier="gymalternatives" id="Han-sJ-Vu7" customClass="SenfinaNavigationViewController" customModule="Vyayamshala" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="11D-FC-h1h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xzF-3X-abg" kind="relationship" relationship="rootViewController" id="S9T-2Z-7wV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ahY-pe-ixJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-319" y="120"/>
+        </scene>
+        <!--Gym Aletnatives View Controller-->
+        <scene sceneID="MSE-WU-Fga">
+            <objects>
+                <viewController id="xzF-3X-abg" customClass="GymAletnativesViewController" customModule="Vyayamshala" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3l-Ox-H2d"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Ib-Ua-DXO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AdA-l9-iGe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J3m-LF-rdW">
+                                <rect key="frame" x="0.0" y="64" width="320" height="143"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="J70-Ld-Dat"/>
+                                    <constraint firstAttribute="width" constant="320" id="e4y-TS-qGM"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="xzF-3X-abg" id="bXD-nu-Z9f"/>
+                                    <outlet property="delegate" destination="xzF-3X-abg" id="xkO-Q6-4Mu"/>
+                                </connections>
+                            </pickerView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8qn-9S-rPv">
+                                <rect key="frame" x="0.0" y="215" width="320" height="265"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Ify-4z-aEm"/>
+                                    <constraint firstAttribute="height" constant="265" id="XUr-ws-aco"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="DiK-1W-I4Z" customClass="DescriptionTableViewCell" customModule="Vyayamshala" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DiK-1W-I4Z" id="ULd-fH-IA0">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAA-yU-qsl">
+                                                    <rect key="frame" x="0.0" y="22" width="320" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="lAA-yU-qsl" secondAttribute="bottom" id="GWH-oZ-qNA"/>
+                                                <constraint firstItem="lAA-yU-qsl" firstAttribute="leading" secondItem="ULd-fH-IA0" secondAttribute="leading" id="PZm-uQ-H15"/>
+                                                <constraint firstItem="lAA-yU-qsl" firstAttribute="leading" secondItem="ULd-fH-IA0" secondAttribute="leading" id="T4S-cd-oem"/>
+                                                <constraint firstAttribute="bottom" secondItem="lAA-yU-qsl" secondAttribute="bottom" id="XVt-At-jNZ"/>
+                                                <constraint firstItem="lAA-yU-qsl" firstAttribute="top" secondItem="ULd-fH-IA0" secondAttribute="top" constant="22" id="cXu-bw-xgk"/>
+                                                <constraint firstAttribute="trailing" secondItem="lAA-yU-qsl" secondAttribute="trailing" id="e6c-C5-xwd"/>
+                                                <constraint firstAttribute="trailing" secondItem="lAA-yU-qsl" secondAttribute="trailing" id="tFJ-Kf-7Nv"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="uitextLabelDes" destination="lAA-yU-qsl" id="a25-Yf-kTr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="xzF-3X-abg" id="g70-GG-zWB"/>
+                                    <outlet property="delegate" destination="xzF-3X-abg" id="PWi-Fo-A4q"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8qn-9S-rPv" firstAttribute="leading" secondItem="AdA-l9-iGe" secondAttribute="leading" id="BZ7-at-epu"/>
+                            <constraint firstItem="J3m-LF-rdW" firstAttribute="top" secondItem="y3l-Ox-H2d" secondAttribute="bottom" id="Ifh-Vv-Drv"/>
+                            <constraint firstItem="6Ib-Ua-DXO" firstAttribute="top" secondItem="8qn-9S-rPv" secondAttribute="bottom" id="SMa-nD-XIy"/>
+                            <constraint firstAttribute="trailing" secondItem="J3m-LF-rdW" secondAttribute="trailing" id="V6j-EB-NJ6"/>
+                            <constraint firstItem="8qn-9S-rPv" firstAttribute="top" secondItem="J3m-LF-rdW" secondAttribute="bottom" constant="8" id="Ylc-3G-8Y3"/>
+                            <constraint firstAttribute="trailing" secondItem="8qn-9S-rPv" secondAttribute="trailing" id="b5A-GE-0fA"/>
+                            <constraint firstItem="J3m-LF-rdW" firstAttribute="leading" secondItem="AdA-l9-iGe" secondAttribute="leading" id="i6H-sV-FYz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="AiA-Xu-7O8"/>
+                    <connections>
+                        <outlet property="pickerView" destination="J3m-LF-rdW" id="h2Y-cm-39P"/>
+                        <outlet property="tableView" destination="8qn-9S-rPv" id="I4P-Hz-ocn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Jz-lW-O8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="511.875" y="202.5"/>
+        </scene>
+    </scenes>
+</document>
