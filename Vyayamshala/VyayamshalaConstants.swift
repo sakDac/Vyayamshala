@@ -62,7 +62,7 @@ struct VyayamshalaConstants {
     
     
     
-//==================================================== VEG :
+// Mark :-=================================================== VEG :
     
    static let milk = "Milk has a unique protein profile with whey protein and casein protein constituting 20 percent and 80 percent of the total protein composition, respectively. Whey protein is specially noted for its quality and digestibility and it is one of the most preferred choices of protein supplementation among the world’s top athletes. Casein has a slow digestibility rate that perfectly balances whey’s digestibility rate.When your body uses the whey protein quickly, casein remains to feed your muscles for the next several hours and to maintain a positive nitrogen balance in your body."
     
@@ -145,7 +145,7 @@ struct VyayamshalaConstants {
     static let NonVeg_P2_Crabs = "Crabs are great source of protin , it contains approx. 18 percent of protin and just 2 percent of fat per 100 gms"
     
 
-    //=============================================== GYM Alternatives
+    // Mark :-============================================== GYM Alternatives
     
     static let walk = "Leave the car keys at home and strut your stuff. Whether you choose to walk to the shop around the corner, start doing the school run by foot, or going a bit further and walking to the supermarket and back (probably only for a few days worth of food) you can start getting healthy.Most of the exercise I do is walking and I find it better with a buddy for support and so the journey doesnt become mundane.However, I also quite like some time alone as I get a chance to clear my head.I get bored going the same routes so mix up where I go and try to do longer walks at the weekend that are a bit further afield."
 
@@ -172,7 +172,7 @@ struct VyayamshalaConstants {
     static let bike_to_work = " Biking to work is an enjoyable, mostly painless way to get your daily workout in. If you live within biking distance to your job and don’t need access to your car during your workday, biking is an ideal alternative to hitting the gym or going for a run after an exhausting day. Biking helps clear your mind for the day ahead and it’s a great way to unwind after you’ve put in your hours. And did we mention that you’ll burn 297 calories for every half hour you spend on your bike? That means that if your commute is a half hour, you’ll burn almost 600 calories a day just getting to and from your job. Try to devise a route that doesn’t require a lot of stopping. Bike trails, residential streets and bike lanes are ideal for both safety and continuity. Riding on a congested city street can be harrowing, and stopping for traffic lights can lower your momentum and reduce your calorie burn.Equip your bike with a basket or find a comfortable backpack in which to haul your stuff to and from work. Wear breathable fabrics for your ride, and leave plenty of time to cool off and change your clothes in the bathroom before you head into your office.Safety is paramount when you’re riding your bike in town. Always, always wear a helmet. Even a small spill on your bike can result in a traumatic head injury. Obey the traffic laws as though you are driving a car, and remain aware of your surroundings."
     
     
-    //=============================================== Home Remedies
+    // Mark :-============================================== Home Remedies
     
     static let Drink_Water = "There’s an old saying in the weight loss industry… “The more you drink the more you shrink”. Water is your most important friend as far as losing weight and keeping it off. It acts as an appetite suppressant by keeping your stomach full and also helps your body to metabolize and break down stored fat by helping the kidney’s flush out waste. Make sure you drink iced water though (at least 2 litres a day) and not room temperature water. Your body will burn between 60 and 100 calories alone just heating up the water to body temperature. And very often hunger pangs are actually thirst pangs so drinking lots of water will also help to stop overeating. In addition, adding a slice of lemon will not only make the water taste good, you also get the added benefit of the lemon cleansing and detoxing your liver (see #11 home remedy for weight loss), which helps to speed up the fat burning process even more."
  

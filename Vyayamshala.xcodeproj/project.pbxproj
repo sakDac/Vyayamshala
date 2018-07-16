@@ -18,7 +18,7 @@
 		3AB3FDC21E3C910C00B18B61 /* PeopleAndStroies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC11E3C910C00B18B61 /* PeopleAndStroies.storyboard */; };
 		3AB3FDC41E3C923A00B18B61 /* PeopleAndStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */; };
 		3AB3FDC71E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */; };
-		3AB3FDCB1E3D0B1C00B18B61 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDCA1E3D0B1C00B18B61 /* File.swift */; };
+		3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */; };
 		3ABA55EF1E3BCD4E00CFD24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */; };
 		3ABA55F11E3BCD4E00CFD24D /* GenericDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */; };
 		3ABA55F41E3BCD4E00CFD24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA55F21E3BCD4E00CFD24D /* Main.storyboard */; };
@@ -71,7 +71,7 @@
 		3AB3FDC11E3C910C00B18B61 /* PeopleAndStroies.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PeopleAndStroies.storyboard; sourceTree = "<group>"; };
 		3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesViewController.swift; sourceTree = "<group>"; };
 		3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingBannerImagesTableViewCell.swift; sourceTree = "<group>"; };
-		3AB3FDCA1E3D0B1C00B18B61 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VyayamshalaConstants.swift; sourceTree = "<group>"; };
 		3ABA55EB1E3BCD4E00CFD24D /* Vyayamshala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vyayamshala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDrawerViewController.swift; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 				3ABA55FD1E3BCD4E00CFD24D /* Info.plist */,
 				3ABA55F51E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld */,
 				3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */,
-				3AB3FDCA1E3D0B1C00B18B61 /* File.swift */,
+				3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */,
 			);
 			path = Vyayamshala;
 			sourceTree = "<group>";
@@ -566,7 +566,7 @@
 				3A5F64071E54CE7D000FFA67 /* GymAletnativesViewController.swift in Sources */,
 				3A4BDD4F1E462BB90037E266 /* FitnessCollectionViewCell.swift in Sources */,
 				3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */,
-				3AB3FDCB1E3D0B1C00B18B61 /* File.swift in Sources */,
+				3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */,
 				3A4BDD4D1E45FDCF0037E266 /* FitnessViewCollectionController.swift in Sources */,
 				3ABA56231E3BD34200CFD24D /* ENSideMenuNavigationController.swift in Sources */,
 				3ABA56271E3BD4AF00CFD24D /* SideMenuNavigationController.swift in Sources */,

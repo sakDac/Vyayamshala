@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Vyayamshala
+//@testable import Vyayamshala
 
 class VyayamshalaTests: XCTestCase {
     
