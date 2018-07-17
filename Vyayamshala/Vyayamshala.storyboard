@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -34,25 +33,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ajdkjadjkadjk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbv-YI-tb7">
-                                <rect key="frame" x="37.5" y="282.5" width="300" height="218"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="BXd-GT-KXl"/>
-                                    <constraint firstAttribute="height" constant="218" id="Ti2-R0-1B4"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rjf-NS-aEv">
+                                <rect key="frame" x="0.0" y="116" width="375" height="551"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HomeTableViewCell" id="nJl-Mi-NaJ" customClass="HomeTableViewCell" customModule="Vyayamshala" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nJl-Mi-NaJ" id="IS3-oP-PB7">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="s6x-Lh-FZB" id="Anp-jJ-hLx"/>
+                                    <outlet property="delegate" destination="s6x-Lh-FZB" id="J5r-Ea-URA"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="pbv-YI-tb7" firstAttribute="centerY" secondItem="ri0-jh-dra" secondAttribute="centerY" id="YLb-XV-U6v"/>
-                            <constraint firstItem="pbv-YI-tb7" firstAttribute="centerX" secondItem="ri0-jh-dra" secondAttribute="centerX" id="heT-ph-XDT"/>
+                            <constraint firstItem="rjf-NS-aEv" firstAttribute="top" secondItem="ri0-jh-dra" secondAttribute="top" id="2Dj-ah-Xeu"/>
+                            <constraint firstItem="rjf-NS-aEv" firstAttribute="leading" secondItem="ri0-jh-dra" secondAttribute="leading" id="Smm-Z6-00e"/>
+                            <constraint firstItem="ri0-jh-dra" firstAttribute="trailing" secondItem="rjf-NS-aEv" secondAttribute="trailing" id="hvb-i2-KU9"/>
+                            <constraint firstItem="ri0-jh-dra" firstAttribute="bottom" secondItem="rjf-NS-aEv" secondAttribute="bottom" id="lqP-nr-dpy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ri0-jh-dra"/>
                     </view>
-                    <navigationItem key="navigationItem" id="yOz-8I-2AO"/>
+                    <navigationItem key="navigationItem" title="Vyayamshala" id="yOz-8I-2AO"/>
+                    <connections>
+                        <outlet property="tableView" destination="rjf-NS-aEv" id="yqW-dF-ReB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5aG-Uv-GWK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
