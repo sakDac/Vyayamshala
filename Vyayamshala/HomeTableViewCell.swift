@@ -9,10 +9,19 @@
 import UIKit
 
 class HomeTableViewCell: UITableViewCell {
-
+    
+    
+    @IBOutlet weak var containerView: UIView!
+    
+    @IBOutlet weak var imgView: UIImageView!
+    
+    @IBOutlet weak var nameLbl: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.containerView.layer.cornerRadius = 20
+        self.containerView.layer.masksToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

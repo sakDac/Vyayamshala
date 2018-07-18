@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -33,17 +34,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rjf-NS-aEv">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rjf-NS-aEv">
                                 <rect key="frame" x="0.0" y="116" width="375" height="551"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HomeTableViewCell" id="nJl-Mi-NaJ" customClass="HomeTableViewCell" customModule="Vyayamshala" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HomeTableViewCell" rowHeight="300" id="nJl-Mi-NaJ" customClass="HomeTableViewCell" customModule="Vyayamshala" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="300"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nJl-Mi-NaJ" id="IS3-oP-PB7">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHm-4d-UFK">
+                                                    <rect key="frame" x="10" y="15" width="355" height="270"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vayayamshala" translatesAutoresizingMaskIntoConstraints="NO" id="iTn-7q-Wq7">
+                                                            <rect key="frame" x="0.0" y="0.0" width="355" height="270"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App of the day" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxl-2L-xyI">
+                                                            <rect key="frame" x="17" y="54" width="143" height="162"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="45"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="iTn-7q-Wq7" secondAttribute="bottom" id="AOm-rD-x0l"/>
+                                                        <constraint firstItem="iTn-7q-Wq7" firstAttribute="top" secondItem="cHm-4d-UFK" secondAttribute="top" id="BJc-gZ-YPv"/>
+                                                        <constraint firstItem="rxl-2L-xyI" firstAttribute="top" secondItem="cHm-4d-UFK" secondAttribute="bottom" multiplier="0.2" id="GLO-OP-Gvg"/>
+                                                        <constraint firstAttribute="trailing" secondItem="iTn-7q-Wq7" secondAttribute="trailing" id="V1I-3T-LUk"/>
+                                                        <constraint firstItem="iTn-7q-Wq7" firstAttribute="leading" secondItem="cHm-4d-UFK" secondAttribute="leading" id="hb7-u9-cYy"/>
+                                                        <constraint firstItem="rxl-2L-xyI" firstAttribute="trailing" secondItem="cHm-4d-UFK" secondAttribute="trailing" multiplier="0.45" id="nI4-Oz-ZYx"/>
+                                                        <constraint firstItem="rxl-2L-xyI" firstAttribute="bottom" secondItem="cHm-4d-UFK" secondAttribute="bottom" multiplier="0.8" id="p0Z-Se-tHl"/>
+                                                        <constraint firstItem="rxl-2L-xyI" firstAttribute="leading" secondItem="cHm-4d-UFK" secondAttribute="leading" constant="17" id="y8A-xT-d08"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="cHm-4d-UFK" firstAttribute="top" secondItem="IS3-oP-PB7" secondAttribute="top" constant="15" id="3EF-oJ-JJ7"/>
+                                                <constraint firstItem="cHm-4d-UFK" firstAttribute="leading" secondItem="IS3-oP-PB7" secondAttribute="leading" constant="10" id="78N-f4-QCg"/>
+                                                <constraint firstAttribute="trailing" secondItem="cHm-4d-UFK" secondAttribute="trailing" constant="10" id="jZd-FF-Sbq"/>
+                                                <constraint firstAttribute="bottom" secondItem="cHm-4d-UFK" secondAttribute="bottom" constant="15" id="q4b-vQ-YS4"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="containerView" destination="cHm-4d-UFK" id="Dhh-YI-CSP"/>
+                                            <outlet property="imgView" destination="iTn-7q-Wq7" id="7Rp-FE-9Ch"/>
+                                            <outlet property="nameLbl" destination="rxl-2L-xyI" id="m6g-3Q-l06"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -71,4 +111,7 @@
             <point key="canvasLocation" x="1214" y="-87"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Vayayamshala" width="1200" height="1800"/>
+    </resources>
 </document>
