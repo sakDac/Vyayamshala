@@ -21,7 +21,7 @@ class HomeTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         self.containerView.layer.cornerRadius = 20
-        self.containerView.layer.masksToBounds = true
+        Util.addShadow(view: self.containerView)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
