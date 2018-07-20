@@ -74,8 +74,8 @@ class FitnessViewCollectionController: UICollectionViewController {
         
         layout.itemSize = CGSize(width: width, height: width+heightAdjustment)
         
-        
-        index =  GenericDrawerViewController.getCurrentIndexName()
+        // Add some Index Here.
+        //index =  GenericDrawerViewController.getCurrentIndexName()
         
         if index == VyayamshalaConstants.FOOD{
             segmentControllOutlet.setTitle("VEG", forSegmentAt: 0)

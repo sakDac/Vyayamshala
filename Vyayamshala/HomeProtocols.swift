@@ -12,11 +12,19 @@ import Foundation
 
 //MARK: Wireframe -
 protocol HomeWireframeProtocol: class {
-
+    func routeToPeopleAndStories()
+    func routeToGym()
+    func routeToGymAlternatives()
+    func routeToFood()
+    func routeToHomeRemedies()
 }
 //MARK: Presenter -
 protocol HomePresenterProtocol: class {
-
+    func peopleAndStories()
+    func gym()
+    func gymAlternatives()
+    func food()
+    func homeRemedies()
 }
 
 //MARK: Interactor -

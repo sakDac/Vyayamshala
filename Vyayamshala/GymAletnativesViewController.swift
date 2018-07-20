@@ -80,81 +80,81 @@ class GymAletnativesViewController: UIViewController ,UIPickerViewDataSource,UIP
     
     func formDataModel(){
         
-        if GenericDrawerViewController.currenSelectedIndexName == VyayamshalaConstants.HOME_REMEDIES {
-            
-            list.append(EntityAndDescription(entity: "Drink Water",description: VyayamshalaConstants.Drink_Water))
-            
-            list.append(EntityAndDescription(entity: "Green tea",description: VyayamshalaConstants.Green_tea))
-            
-            list.append(EntityAndDescription(entity: "Liquid Colloidal Minerals",description: VyayamshalaConstants.Liquid_Colloidal_Minerals))
-            
-            list.append(EntityAndDescription(entity: "Eat fibre",description: VyayamshalaConstants.Eat_fibre))
-            
-            list.append(EntityAndDescription(entity: "Take calcium supplements",description: VyayamshalaConstants.Take_calcium_supplements))
-            
-            list.append(EntityAndDescription(entity: "Lemon and black pepper",description: VyayamshalaConstants.Lemon_and_black_pepper))
-            
-            list.append(EntityAndDescription(entity: "Ginseng",description: VyayamshalaConstants.Ginseng))
-            
-            list.append(EntityAndDescription(entity: "Coconut oil",description: VyayamshalaConstants.Coconut_oil))
-
-            list.append(EntityAndDescription(entity: "Iodine",description: VyayamshalaConstants.Iodine))
-
-            list.append(EntityAndDescription(entity: "Quality protein Intake",description: VyayamshalaConstants.Quality_protein_Intake))
-
-            list.append(EntityAndDescription(entity: "Moderate carbohyderate Intake",description: VyayamshalaConstants.Moderate_carbohyderate_Intake))
-
-            list.append(EntityAndDescription(entity: "Avoid Sugar",description: VyayamshalaConstants.Avoid_Sugar))
-
-            list.append(EntityAndDescription(entity: "Eat regularly",description: VyayamshalaConstants.Eat_regularly))
-
-            list.append(EntityAndDescription(entity: "Never leave house hungry",description: VyayamshalaConstants.Never_leave_house_hungry))
-
-            list.append(EntityAndDescription(entity: "Aleo vera",description: VyayamshalaConstants.Aleo_vera))
-            
-            list.append(EntityAndDescription(entity: "Curry leaves",description: VyayamshalaConstants.Curry_leaves))
-
-            list.append(EntityAndDescription(entity: "Rose petal Water",description: VyayamshalaConstants.Rose_petal_Water))
-
-            list.append(EntityAndDescription(entity: "Chewing gum",description: VyayamshalaConstants.Chewing_gum))
-
-            list.append(EntityAndDescription(entity: "Get enough Sleep",description: VyayamshalaConstants.Get_enough_Sleep))
-
-            list.append(EntityAndDescription(entity: "Black pepper And Lemon juice",description: VyayamshalaConstants.Black_pepper_lemon))
-
-            list.append(EntityAndDescription(entity: "Apple Snacks",description: VyayamshalaConstants.Apple_Snacks))
-        }
-        else if (GenericDrawerViewController.currenSelectedIndexName == VyayamshalaConstants.GYM_ATERNATIVES){
-            
-            list.append(EntityAndDescription(entity: "Walk",description: VyayamshalaConstants.walk))
-            
-            list.append(EntityAndDescription(entity: "Dance",description: VyayamshalaConstants.dance))
-            
-            list.append(EntityAndDescription(entity: "Take the Stairs",description: VyayamshalaConstants.take_stairs))
-            
-            list.append(EntityAndDescription(entity: "Work out with youtube",description: VyayamshalaConstants.youtube))
-            
-            list.append(EntityAndDescription(entity: "Weight the beans",description: VyayamshalaConstants.Weigth_the_beans))
-            
-            list.append(EntityAndDescription(entity: "Do the house work",description: VyayamshalaConstants.house_work))
-            
-            list.append(EntityAndDescription(entity: "Hula hoops",description: VyayamshalaConstants.hula_hoops))
-            
-            list.append(EntityAndDescription(entity: "Gardening",description: VyayamshalaConstants.work_in_garder))
-            
-            list.append(EntityAndDescription(entity: "Go for Swim",description: VyayamshalaConstants.swim))
-            
-            list.append(EntityAndDescription(entity: "Tv Commercials",description: VyayamshalaConstants.tv_commercials))
-
-            list.append(EntityAndDescription(entity: "Run Stairs",description: VyayamshalaConstants.run_staires))
-
-            list.append(EntityAndDescription(entity: "Bike to work",description: VyayamshalaConstants.bike_to_work))
-
-            
-        }
-        self.dynamicDescription = list[0].description
-        pickerView.reloadAllComponents()
-        self.tableView.reloadData()
+//        if GenericDrawerViewController.currenSelectedIndexName == VyayamshalaConstants.HOME_REMEDIES {
+//            
+//            list.append(EntityAndDescription(entity: "Drink Water",description: VyayamshalaConstants.Drink_Water))
+//            
+//            list.append(EntityAndDescription(entity: "Green tea",description: VyayamshalaConstants.Green_tea))
+//            
+//            list.append(EntityAndDescription(entity: "Liquid Colloidal Minerals",description: VyayamshalaConstants.Liquid_Colloidal_Minerals))
+//            
+//            list.append(EntityAndDescription(entity: "Eat fibre",description: VyayamshalaConstants.Eat_fibre))
+//            
+//            list.append(EntityAndDescription(entity: "Take calcium supplements",description: VyayamshalaConstants.Take_calcium_supplements))
+//            
+//            list.append(EntityAndDescription(entity: "Lemon and black pepper",description: VyayamshalaConstants.Lemon_and_black_pepper))
+//            
+//            list.append(EntityAndDescription(entity: "Ginseng",description: VyayamshalaConstants.Ginseng))
+//            
+//            list.append(EntityAndDescription(entity: "Coconut oil",description: VyayamshalaConstants.Coconut_oil))
+//
+//            list.append(EntityAndDescription(entity: "Iodine",description: VyayamshalaConstants.Iodine))
+//
+//            list.append(EntityAndDescription(entity: "Quality protein Intake",description: VyayamshalaConstants.Quality_protein_Intake))
+//
+//            list.append(EntityAndDescription(entity: "Moderate carbohyderate Intake",description: VyayamshalaConstants.Moderate_carbohyderate_Intake))
+//
+//            list.append(EntityAndDescription(entity: "Avoid Sugar",description: VyayamshalaConstants.Avoid_Sugar))
+//
+//            list.append(EntityAndDescription(entity: "Eat regularly",description: VyayamshalaConstants.Eat_regularly))
+//
+//            list.append(EntityAndDescription(entity: "Never leave house hungry",description: VyayamshalaConstants.Never_leave_house_hungry))
+//
+//            list.append(EntityAndDescription(entity: "Aleo vera",description: VyayamshalaConstants.Aleo_vera))
+//            
+//            list.append(EntityAndDescription(entity: "Curry leaves",description: VyayamshalaConstants.Curry_leaves))
+//
+//            list.append(EntityAndDescription(entity: "Rose petal Water",description: VyayamshalaConstants.Rose_petal_Water))
+//
+//            list.append(EntityAndDescription(entity: "Chewing gum",description: VyayamshalaConstants.Chewing_gum))
+//
+//            list.append(EntityAndDescription(entity: "Get enough Sleep",description: VyayamshalaConstants.Get_enough_Sleep))
+//
+//            list.append(EntityAndDescription(entity: "Black pepper And Lemon juice",description: VyayamshalaConstants.Black_pepper_lemon))
+//
+//            list.append(EntityAndDescription(entity: "Apple Snacks",description: VyayamshalaConstants.Apple_Snacks))
+//        }
+//        else if (GenericDrawerViewController.currenSelectedIndexName == VyayamshalaConstants.GYM_ATERNATIVES){
+//            
+//            list.append(EntityAndDescription(entity: "Walk",description: VyayamshalaConstants.walk))
+//            
+//            list.append(EntityAndDescription(entity: "Dance",description: VyayamshalaConstants.dance))
+//            
+//            list.append(EntityAndDescription(entity: "Take the Stairs",description: VyayamshalaConstants.take_stairs))
+//            
+//            list.append(EntityAndDescription(entity: "Work out with youtube",description: VyayamshalaConstants.youtube))
+//            
+//            list.append(EntityAndDescription(entity: "Weight the beans",description: VyayamshalaConstants.Weigth_the_beans))
+//            
+//            list.append(EntityAndDescription(entity: "Do the house work",description: VyayamshalaConstants.house_work))
+//            
+//            list.append(EntityAndDescription(entity: "Hula hoops",description: VyayamshalaConstants.hula_hoops))
+//            
+//            list.append(EntityAndDescription(entity: "Gardening",description: VyayamshalaConstants.work_in_garder))
+//            
+//            list.append(EntityAndDescription(entity: "Go for Swim",description: VyayamshalaConstants.swim))
+//            
+//            list.append(EntityAndDescription(entity: "Tv Commercials",description: VyayamshalaConstants.tv_commercials))
+//
+//            list.append(EntityAndDescription(entity: "Run Stairs",description: VyayamshalaConstants.run_staires))
+//
+//            list.append(EntityAndDescription(entity: "Bike to work",description: VyayamshalaConstants.bike_to_work))
+//
+//            
+//        }
+//        self.dynamicDescription = list[0].description
+//        pickerView.reloadAllComponents()
+//        self.tableView.reloadData()
     }
     
     

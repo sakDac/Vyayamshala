@@ -10,13 +10,13 @@
 
 import UIKit
 
-class HomeRouter: HomeWireframeProtocol {
+class HomeRouter {
     
-    weak var viewController: UIViewController?
+    weak var viewController: HomeViewController?
     
-    static func createModule() -> UIViewController {
+    static func createModule(vc: HomeViewController) -> HomeViewController {
         // Change to get view from storyboard if not using progammatic UI
-        let view = HomeViewController(nibName: nil, bundle: nil)
+        let view = vc //HomeViewController(nibName: nil, bundle: nil)
         let interactor = HomeInteractor()
         let router = HomeRouter()
         let presenter = HomePresenter(interface: view, interactor: interactor, router: router)
@@ -24,7 +24,30 @@ class HomeRouter: HomeWireframeProtocol {
         view.presenter = presenter
         interactor.presenter = presenter
         router.viewController = view
-        
         return view
+    }
+}
+
+extension HomeRouter: HomeWireframeProtocol {
+    
+    func routeToPeopleAndStories() {
+     let vc = PeopleAndStoriesRouter.createModule()
+     self.viewController?.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func routeToGym() {
+        
+    }
+    
+    func routeToGymAlternatives() {
+        
+    }
+    
+    func routeToFood() {
+        
+    }
+    
+    func routeToHomeRemedies() {
+        
     }
 }

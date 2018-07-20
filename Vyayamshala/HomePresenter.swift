@@ -10,8 +10,8 @@
 
 import UIKit
 
-class HomePresenter: HomePresenterProtocol {
-
+class HomePresenter {
+    
     weak private var view: HomeViewProtocol?
     var interactor: HomeInteractorProtocol?
     private let router: HomeWireframeProtocol
@@ -22,4 +22,28 @@ class HomePresenter: HomePresenterProtocol {
         self.router = router
     }
 
+}
+
+extension HomePresenter: HomePresenterProtocol {
+    
+    func peopleAndStories() {
+        self.router.routeToPeopleAndStories()
+    }
+    
+    func gym() {
+        self.router.routeToGym()
+    }
+    
+    func gymAlternatives() {
+        self.router.routeToGymAlternatives()
+    }
+    
+    func food() {
+        self.router.routeToFood()
+    }
+    
+    func homeRemedies() {
+        self.router.routeToHomeRemedies()
+    }
+    
 }

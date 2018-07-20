@@ -15,9 +15,6 @@
 		3A5F64071E54CE7D000FFA67 /* GymAletnativesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5F64061E54CE7C000FFA67 /* GymAletnativesViewController.swift */; };
 		3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4770F1E61898C003AB322 /* URL_Gym.swift */; };
 		3AB3FDC01E3C8B8900B18B61 /* Fitness.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */; };
-		3AB3FDC21E3C910C00B18B61 /* PeopleAndStroies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC11E3C910C00B18B61 /* PeopleAndStroies.storyboard */; };
-		3AB3FDC41E3C923A00B18B61 /* PeopleAndStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */; };
-		3AB3FDC71E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */; };
 		3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */; };
 		3AB4D8A120FD0BBC0002B891 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89B20FD0BBC0002B891 /* HomeInteractor.swift */; };
 		3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */; };
@@ -27,21 +24,25 @@
 		3AB4D8A820FD0C0C0002B891 /* Vyayamshala.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4D8A720FD0C0C0002B891 /* Vyayamshala.storyboard */; };
 		3AB4D8AB20FD15FD0002B891 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D8AA20FD15FD0002B891 /* NavigationViewController.swift */; };
 		3ABA55EF1E3BCD4E00CFD24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */; };
-		3ABA55F11E3BCD4E00CFD24D /* GenericDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */; };
 		3ABA55F41E3BCD4E00CFD24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA55F21E3BCD4E00CFD24D /* Main.storyboard */; };
 		3ABA55F71E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA55F51E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld */; };
 		3ABA55F91E3BCD4E00CFD24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA55F81E3BCD4E00CFD24D /* Assets.xcassets */; };
 		3ABA55FC1E3BCD4E00CFD24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA55FA1E3BCD4E00CFD24D /* LaunchScreen.storyboard */; };
 		3ABA56071E3BCD4E00CFD24D /* VyayamshalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56061E3BCD4E00CFD24D /* VyayamshalaTests.swift */; };
 		3ABA56121E3BCD4E00CFD24D /* VyayamshalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56111E3BCD4E00CFD24D /* VyayamshalaUITests.swift */; };
-		3ABA56211E3BD30600CFD24D /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56201E3BD30600CFD24D /* ENSideMenu.swift */; };
-		3ABA56231E3BD34200CFD24D /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56221E3BD34200CFD24D /* ENSideMenuNavigationController.swift */; };
-		3ABA56251E3BD3DE00CFD24D /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56241E3BD3DE00CFD24D /* SideMenuTableViewController.swift */; };
-		3ABA56271E3BD4AF00CFD24D /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA56261E3BD4AF00CFD24D /* SideMenuNavigationController.swift */; };
 		3ABE03BE20FDA44E00D0208F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE03BD20FDA44E00D0208F /* HomeTableViewCell.swift */; };
+		3ABED6382101859400A26167 /* PeopleNameStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABED6372101859400A26167 /* PeopleNameStories.swift */; };
+		3AC0F4F82100E3AA007DFC1D /* PeopleAndStoriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F4F22100E3AA007DFC1D /* PeopleAndStoriesInteractor.swift */; };
+		3AC0F4F92100E3AA007DFC1D /* PeopleAndStoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F4F32100E3AA007DFC1D /* PeopleAndStoriesPresenter.swift */; };
+		3AC0F4FA2100E3AA007DFC1D /* PeopleAndStoriesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F4F42100E3AA007DFC1D /* PeopleAndStoriesProtocols.swift */; };
+		3AC0F4FB2100E3AA007DFC1D /* PeopleAndStoriesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F4F52100E3AA007DFC1D /* PeopleAndStoriesRouter.swift */; };
+		3AC0F4FC2100E3AA007DFC1D /* PeopleAndStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F4F62100E3AA007DFC1D /* PeopleAndStoriesViewController.swift */; };
+		3AC0F5002100E57A007DFC1D /* PeopleScrollTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F4FF2100E57A007DFC1D /* PeopleScrollTableViewCell.swift */; };
+		3AC0F5022100E590007DFC1D /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F5012100E590007DFC1D /* StoriesTableViewCell.swift */; };
 		3AC8C6561E60B8FC00032665 /* URL_Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8C6551E60B8FC00032665 /* URL_Food.swift */; };
 		3ACA929E2100336B00032BC0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA929D2100336B00032BC0 /* Util.swift */; };
-		3AD4A1791E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4A1781E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift */; };
+		3ADDD90D2100ED7500B36A0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDD90C2100ED7500B36A0F /* Extensions.swift */; };
+		3ADDD90F2100F5A100B36A0F /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDD90E2100F5A100B36A0F /* PeopleCollectionViewCell.swift */; };
 		3AE83FE41E578149009F0676 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE83FE31E578149009F0676 /* DescriptionTableViewCell.swift */; };
 		8E207DCDC6B2E9060A5AFC84 /* Pods_VyayamshalaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92AEA3364CB028F59D3B4BE /* Pods_VyayamshalaTests.framework */; };
 		8FFA6182729C4B7BA5CB6945 /* Pods_VyayamshalaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BF236C1FD0B2D84D47FA55 /* Pods_VyayamshalaUITests.framework */; };
@@ -77,9 +78,6 @@
 		3A5F64061E54CE7C000FFA67 /* GymAletnativesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymAletnativesViewController.swift; sourceTree = "<group>"; };
 		3AA4770F1E61898C003AB322 /* URL_Gym.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Gym.swift; sourceTree = "<group>"; };
 		3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fitness.storyboard; sourceTree = "<group>"; };
-		3AB3FDC11E3C910C00B18B61 /* PeopleAndStroies.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PeopleAndStroies.storyboard; sourceTree = "<group>"; };
-		3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesViewController.swift; sourceTree = "<group>"; };
-		3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingBannerImagesTableViewCell.swift; sourceTree = "<group>"; };
 		3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VyayamshalaConstants.swift; sourceTree = "<group>"; };
 		3AB4D89B20FD0BBC0002B891 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 		3AB4D8AA20FD15FD0002B891 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		3ABA55EB1E3BCD4E00CFD24D /* Vyayamshala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vyayamshala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDrawerViewController.swift; sourceTree = "<group>"; };
 		3ABA55F31E3BCD4E00CFD24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ABA55F61E3BCD4E00CFD24D /* Vyayamshala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vyayamshala.xcdatamodel; sourceTree = "<group>"; };
 		3ABA55F81E3BCD4E00CFD24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,14 +99,19 @@
 		3ABA560D1E3BCD4E00CFD24D /* VyayamshalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VyayamshalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABA56111E3BCD4E00CFD24D /* VyayamshalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VyayamshalaUITests.swift; sourceTree = "<group>"; };
 		3ABA56131E3BCD4E00CFD24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3ABA56201E3BD30600CFD24D /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
-		3ABA56221E3BD34200CFD24D /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
-		3ABA56241E3BD3DE00CFD24D /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
-		3ABA56261E3BD4AF00CFD24D /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuNavigationController.swift; sourceTree = "<group>"; };
 		3ABE03BD20FDA44E00D0208F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		3ABED6372101859400A26167 /* PeopleNameStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleNameStories.swift; sourceTree = "<group>"; };
+		3AC0F4F22100E3AA007DFC1D /* PeopleAndStoriesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesInteractor.swift; sourceTree = "<group>"; };
+		3AC0F4F32100E3AA007DFC1D /* PeopleAndStoriesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesPresenter.swift; sourceTree = "<group>"; };
+		3AC0F4F42100E3AA007DFC1D /* PeopleAndStoriesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesProtocols.swift; sourceTree = "<group>"; };
+		3AC0F4F52100E3AA007DFC1D /* PeopleAndStoriesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesRouter.swift; sourceTree = "<group>"; };
+		3AC0F4F62100E3AA007DFC1D /* PeopleAndStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesViewController.swift; sourceTree = "<group>"; };
+		3AC0F4FF2100E57A007DFC1D /* PeopleScrollTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleScrollTableViewCell.swift; sourceTree = "<group>"; };
+		3AC0F5012100E590007DFC1D /* StoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewCell.swift; sourceTree = "<group>"; };
 		3AC8C6551E60B8FC00032665 /* URL_Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Food.swift; sourceTree = "<group>"; };
 		3ACA929D2100336B00032BC0 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
-		3AD4A1781E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndStoryTableViewCell.swift; sourceTree = "<group>"; };
+		3ADDD90C2100ED7500B36A0F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3ADDD90E2100F5A100B36A0F /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
 		3AE83FE31E578149009F0676 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		A3362A70B58014E0B59F8208 /* Pods-Vyayamshala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vyayamshala.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vyayamshala/Pods-Vyayamshala.release.xcconfig"; sourceTree = "<group>"; };
 		C2F75410F963C8BAC099F4CA /* Pods-VyayamshalaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VyayamshalaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VyayamshalaUITests/Pods-VyayamshalaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,17 +158,6 @@
 				3AE83FE31E578149009F0676 /* DescriptionTableViewCell.swift */,
 			);
 			name = GymAlernatives;
-			sourceTree = "<group>";
-		};
-		3AB3FDBD1E3C82E600B18B61 /* PeopleAndStories */ = {
-			isa = PBXGroup;
-			children = (
-				3AB3FDC11E3C910C00B18B61 /* PeopleAndStroies.storyboard */,
-				3AB3FDC31E3C923A00B18B61 /* PeopleAndStoriesViewController.swift */,
-				3AB3FDC61E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift */,
-				3AD4A1781E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift */,
-			);
-			name = PeopleAndStories;
 			sourceTree = "<group>";
 		};
 		3AB3FDBE1E3C89FB00B18B61 /* FitnessAndDiet */ = {
@@ -227,23 +218,19 @@
 		3ABA55ED1E3BCD4E00CFD24D /* Vyayamshala */ = {
 			isa = PBXGroup;
 			children = (
+				3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */,
+				3AC0F4E72100DCFB007DFC1D /* PeopleAndStories */,
 				3ACA929C2100334B00032BC0 /* Utils */,
 				3AB4D8A920FD15D50002B891 /* Navigation */,
 				3AB4D89A20FD0B8B0002B891 /* Home */,
-				3AC8C6541E60B8B900032665 /* Constants_URL */,
 				3A1D94991E46E98100CDF890 /* GymAlernatives */,
 				3AB3FDBE1E3C89FB00B18B61 /* FitnessAndDiet */,
-				3AB3FDBD1E3C82E600B18B61 /* PeopleAndStories */,
-				3ABA561F1E3BD2AC00CFD24D /* SideMenuGroup */,
-				3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */,
-				3ABA55F01E3BCD4E00CFD24D /* GenericDrawerViewController.swift */,
 				3ABA55F21E3BCD4E00CFD24D /* Main.storyboard */,
 				3ABA55F81E3BCD4E00CFD24D /* Assets.xcassets */,
 				3ABA55FA1E3BCD4E00CFD24D /* LaunchScreen.storyboard */,
 				3ABA55FD1E3BCD4E00CFD24D /* Info.plist */,
 				3ABA55F51E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld */,
 				3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */,
-				3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */,
 				3AB4D8A720FD0C0C0002B891 /* Vyayamshala.storyboard */,
 			);
 			path = Vyayamshala;
@@ -267,17 +254,6 @@
 			path = VyayamshalaUITests;
 			sourceTree = "<group>";
 		};
-		3ABA561F1E3BD2AC00CFD24D /* SideMenuGroup */ = {
-			isa = PBXGroup;
-			children = (
-				3ABA56201E3BD30600CFD24D /* ENSideMenu.swift */,
-				3ABA56221E3BD34200CFD24D /* ENSideMenuNavigationController.swift */,
-				3ABA56241E3BD3DE00CFD24D /* SideMenuTableViewController.swift */,
-				3ABA56261E3BD4AF00CFD24D /* SideMenuNavigationController.swift */,
-			);
-			name = SideMenuGroup;
-			sourceTree = "<group>";
-		};
 		3ABE03BC20FDA41400D0208F /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,19 +262,46 @@
 			name = Cell;
 			sourceTree = "<group>";
 		};
-		3AC8C6541E60B8B900032665 /* Constants_URL */ = {
+		3ABED6362101856E00A26167 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3AC8C6551E60B8FC00032665 /* URL_Food.swift */,
-				3AA4770F1E61898C003AB322 /* URL_Gym.swift */,
+				3ABED6372101859400A26167 /* PeopleNameStories.swift */,
 			);
-			name = Constants_URL;
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3AC0F4E72100DCFB007DFC1D /* PeopleAndStories */ = {
+			isa = PBXGroup;
+			children = (
+				3ABED6362101856E00A26167 /* Model */,
+				3AC0F4FE2100E4F8007DFC1D /* cell */,
+				3AC0F4F22100E3AA007DFC1D /* PeopleAndStoriesInteractor.swift */,
+				3AC0F4F32100E3AA007DFC1D /* PeopleAndStoriesPresenter.swift */,
+				3AC0F4F42100E3AA007DFC1D /* PeopleAndStoriesProtocols.swift */,
+				3AC0F4F52100E3AA007DFC1D /* PeopleAndStoriesRouter.swift */,
+				3AC0F4F62100E3AA007DFC1D /* PeopleAndStoriesViewController.swift */,
+			);
+			name = PeopleAndStories;
+			sourceTree = "<group>";
+		};
+		3AC0F4FE2100E4F8007DFC1D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AC0F4FF2100E57A007DFC1D /* PeopleScrollTableViewCell.swift */,
+				3AC0F5012100E590007DFC1D /* StoriesTableViewCell.swift */,
+				3ADDD90E2100F5A100B36A0F /* PeopleCollectionViewCell.swift */,
+			);
+			name = cell;
 			sourceTree = "<group>";
 		};
 		3ACA929C2100334B00032BC0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */,
+				3AA4770F1E61898C003AB322 /* URL_Gym.swift */,
 				3ACA929D2100336B00032BC0 /* Util.swift */,
+				3ADDD90C2100ED7500B36A0F /* Extensions.swift */,
+				3AC8C6551E60B8FC00032665 /* URL_Food.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -452,7 +455,6 @@
 				3ABA55F41E3BCD4E00CFD24D /* Main.storyboard in Resources */,
 				3A5F64051E54CDBD000FFA67 /* GymAlternatives.storyboard in Resources */,
 				3AB4D8A820FD0C0C0002B891 /* Vyayamshala.storyboard in Resources */,
-				3AB3FDC21E3C910C00B18B61 /* PeopleAndStroies.storyboard in Resources */,
 				3A3728AD1E5032CE004D92FB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,31 +618,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC0F4FA2100E3AA007DFC1D /* PeopleAndStoriesProtocols.swift in Sources */,
+				3ABED6382101859400A26167 /* PeopleNameStories.swift in Sources */,
 				3AB4D8AB20FD15FD0002B891 /* NavigationViewController.swift in Sources */,
 				3AE83FE41E578149009F0676 /* DescriptionTableViewCell.swift in Sources */,
 				3AB4D8A120FD0BBC0002B891 /* HomeInteractor.swift in Sources */,
-				3ABA56211E3BD30600CFD24D /* ENSideMenu.swift in Sources */,
 				3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */,
 				3AB4D8A320FD0BBC0002B891 /* HomeProtocols.swift in Sources */,
-				3ABA56251E3BD3DE00CFD24D /* SideMenuTableViewController.swift in Sources */,
 				3ACA929E2100336B00032BC0 /* Util.swift in Sources */,
+				3ADDD90D2100ED7500B36A0F /* Extensions.swift in Sources */,
+				3AC0F4FB2100E3AA007DFC1D /* PeopleAndStoriesRouter.swift in Sources */,
 				3AB4D8A520FD0BBC0002B891 /* HomeViewController.swift in Sources */,
-				3ABA55F11E3BCD4E00CFD24D /* GenericDrawerViewController.swift in Sources */,
-				3AB3FDC71E3CA42C00B18B61 /* ScrollingBannerImagesTableViewCell.swift in Sources */,
-				3AD4A1791E3DD34C007E1AA3 /* NameAndStoryTableViewCell.swift in Sources */,
+				3AC0F4F92100E3AA007DFC1D /* PeopleAndStoriesPresenter.swift in Sources */,
 				3ABE03BE20FDA44E00D0208F /* HomeTableViewCell.swift in Sources */,
+				3AC0F5022100E590007DFC1D /* StoriesTableViewCell.swift in Sources */,
 				3AC8C6561E60B8FC00032665 /* URL_Food.swift in Sources */,
 				3ABA55EF1E3BCD4E00CFD24D /* AppDelegate.swift in Sources */,
+				3ADDD90F2100F5A100B36A0F /* PeopleCollectionViewCell.swift in Sources */,
+				3AC0F4F82100E3AA007DFC1D /* PeopleAndStoriesInteractor.swift in Sources */,
+				3AC0F5002100E57A007DFC1D /* PeopleScrollTableViewCell.swift in Sources */,
 				3A4BDD511E464C310037E266 /* FitnessDetailsViewController.swift in Sources */,
 				3A5F64071E54CE7D000FFA67 /* GymAletnativesViewController.swift in Sources */,
 				3A4BDD4F1E462BB90037E266 /* FitnessCollectionViewCell.swift in Sources */,
 				3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */,
 				3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */,
+				3AC0F4FC2100E3AA007DFC1D /* PeopleAndStoriesViewController.swift in Sources */,
 				3A4BDD4D1E45FDCF0037E266 /* FitnessViewCollectionController.swift in Sources */,
-				3ABA56231E3BD34200CFD24D /* ENSideMenuNavigationController.swift in Sources */,
-				3ABA56271E3BD4AF00CFD24D /* SideMenuNavigationController.swift in Sources */,
 				3ABA55F71E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld in Sources */,
-				3AB3FDC41E3C923A00B18B61 /* PeopleAndStoriesViewController.swift in Sources */,
 				3AB4D8A420FD0BBC0002B891 /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

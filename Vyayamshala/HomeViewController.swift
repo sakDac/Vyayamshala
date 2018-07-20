@@ -18,6 +18,7 @@ class HomeViewController: UIViewController, HomeViewProtocol {
     
 	override func viewDidLoad() {
         super.viewDidLoad()
+        HomeRouter.createModule(vc: self)
     }
 }
 
@@ -41,6 +42,6 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        self.presenter?.peopleAndStories()
     }
 }
