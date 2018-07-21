@@ -13,12 +13,15 @@ import UIKit
 class HomeViewController: UIViewController, HomeViewProtocol {
 
 	var presenter: HomePresenterProtocol?
+    var model: [HomeModel]!
+    
     
     @IBOutlet weak var tableView: UITableView!
     
 	override func viewDidLoad() {
         super.viewDidLoad()
         HomeRouter.createModule(vc: self)
+        self.model = HomeModel.getData()
     }
 }
 
@@ -26,14 +29,15 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return 20
+        return self.model.count
     }
     
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell", for: indexPath) as! HomeTableViewCell
         cell.selectionStyle = .none
+        cell.setData(homeModel: model[indexPath.row])
         return cell
     }
     
@@ -42,11 +46,24 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        switch indexPath.row {
-        case 0:
+       
+        switch model[indexPath.row].name {
+            
+        case VyayamshalaConstants.PEOPLE_AND_STORIES:
             self.presenter?.peopleAndStories()
-        case 1:
-            self.presenter?.gymAlternatives()
+            
+        case VyayamshalaConstants.GYM_ATERNATIVES:
+            self.presenter?.gymAlternatives(option: .GymAletnative)
+            
+        case VyayamshalaConstants.HOME_REMEDIES:
+            self.presenter?.gymAlternatives(option: .HomeRemedy)
+            
+        case VyayamshalaConstants.FOOD:
+            self.presenter?.foodNFitness(option: .Food)
+            
+        case VyayamshalaConstants.FITNESS:
+            self.presenter?.foodNFitness(option: .Fitness)
+            
         default:
             print(" no handler....  ")
         }

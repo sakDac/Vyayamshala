@@ -13,18 +13,14 @@ import Foundation
 //MARK: Wireframe -
 protocol HomeWireframeProtocol: class {
     func routeToPeopleAndStories()
-    func routeToGym()
-    func routeToGymAlternatives()
-    func routeToFood()
-    func routeToHomeRemedies()
+    func routeToGymAlternatives(option: GymAlt)
+    func routeToFoodNFitnerss(option: FoodNFitness)
 }
 //MARK: Presenter -
 protocol HomePresenterProtocol: class {
     func peopleAndStories()
-    func gym()
-    func gymAlternatives()
-    func food()
-    func homeRemedies()
+    func gymAlternatives(option: GymAlt)
+    func foodNFitness(option: FoodNFitness)
 }
 
 //MARK: Interactor -

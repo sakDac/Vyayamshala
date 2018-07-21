@@ -10,11 +10,11 @@ import Foundation
 
 struct VyayamshalaConstants {
     
-    static let PEOPLE_AND_STORIES = "people_stories"
-    static let FOOD = "food"
-    static let FITNESS = "fitness"
-    static let GYM_ATERNATIVES = "gym_alernatives"
-    static let HOME_REMEDIES = "home_remedies"
+    static let PEOPLE_AND_STORIES = "PEOPLE AND STORIES"
+    static let FOOD = "FOOD"
+    static let FITNESS = "FITNESS"
+    static let GYM_ATERNATIVES = "GYM ATERNATIVES"
+    static let HOME_REMEDIES = "HOME REMEDIES"
 
     
     

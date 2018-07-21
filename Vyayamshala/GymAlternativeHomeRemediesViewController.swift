@@ -37,9 +37,12 @@ class GymAlternativeHomeRemediesViewController: UIViewController, GymAlternative
     override func viewDidLoad() {
         super.viewDidLoad()
         if option == GymAlt.HomeRemedy {
+            self.title = "Home Remedies"
             self.dataList = HomeRemedy.getData()
+        } else {
+            self.title = "Gym Alternatives"
+            self.dataList = GymAlternatives.getData()
         }
-        self.dataList = GymAlternatives.getData()
         self.setUIData(model: self.dataList[0])
     }
     

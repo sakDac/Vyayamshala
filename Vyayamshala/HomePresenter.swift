@@ -30,20 +30,11 @@ extension HomePresenter: HomePresenterProtocol {
         self.router.routeToPeopleAndStories()
     }
     
-    func gym() {
-        self.router.routeToGym()
+    func gymAlternatives(option: GymAlt) {
+        self.router.routeToGymAlternatives(option: option)
     }
     
-    func gymAlternatives() {
-        self.router.routeToGymAlternatives()
+    func foodNFitness(option: FoodNFitness) {
+        self.router.routeToFoodNFitnerss(option: option)
     }
-    
-    func food() {
-        self.router.routeToFood()
-    }
-    
-    func homeRemedies() {
-        self.router.routeToHomeRemedies()
-    }
-    
 }

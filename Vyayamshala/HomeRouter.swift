@@ -35,20 +35,15 @@ extension HomeRouter: HomeWireframeProtocol {
      self.viewController?.navigationController?.pushViewController(vc, animated: true)
     }
     
-    func routeToGym() {
-        
-    }
-    
-    func routeToGymAlternatives() {
+    func routeToGymAlternatives(option: GymAlt) {
         let vc = GymAlternativeHomeRemediesRouter.createModule()
+        vc.option = option
         self.viewController?.navigationController?.pushViewController(vc, animated: true)
     }
     
-    func routeToFood() {
-        
-    }
-    
-    func routeToHomeRemedies() {
-        
+    func routeToFoodNFitnerss(option: FoodNFitness) {
+        let vc = FitnessAndDietRouter.createModule()
+        vc.option = option
+        self.viewController?.navigationController?.pushViewController(vc, animated: true)
     }
 }

@@ -24,10 +24,8 @@ class HomeTableViewCell: UITableViewCell {
         Util.addShadow(view: self.containerView)
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func setData(homeModel: HomeModel) {
+        self.nameLbl.text = homeModel.name
     }
 
 }
