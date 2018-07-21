@@ -46,6 +46,7 @@
 		3AD22EB921023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB321023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift */; };
 		3AD22EBA21023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB421023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift */; };
 		3AD22EBF2102410000CCE4AE /* GymAletnativesHomeRemediesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EBE2102410000CCE4AE /* GymAletnativesHomeRemediesCollectionViewCell.swift */; };
+		3AD5641E21034E8D00CFA682 /* CircularLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5641D21034E8D00CFA682 /* CircularLabel.swift */; };
 		3ADDD90D2100ED7500B36A0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDD90C2100ED7500B36A0F /* Extensions.swift */; };
 		3ADDD90F2100F5A100B36A0F /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDD90E2100F5A100B36A0F /* PeopleCollectionViewCell.swift */; };
 		8E207DCDC6B2E9060A5AFC84 /* Pods_VyayamshalaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92AEA3364CB028F59D3B4BE /* Pods_VyayamshalaTests.framework */; };
@@ -119,6 +120,7 @@
 		3AD22EB321023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesRouter.swift; sourceTree = "<group>"; };
 		3AD22EB421023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesViewController.swift; sourceTree = "<group>"; };
 		3AD22EBE2102410000CCE4AE /* GymAletnativesHomeRemediesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAletnativesHomeRemediesCollectionViewCell.swift; sourceTree = "<group>"; };
+		3AD5641D21034E8D00CFA682 /* CircularLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLabel.swift; sourceTree = "<group>"; };
 		3ADDD90C2100ED7500B36A0F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3ADDD90E2100F5A100B36A0F /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
 		A3362A70B58014E0B59F8208 /* Pods-Vyayamshala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vyayamshala.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vyayamshala/Pods-Vyayamshala.release.xcconfig"; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 				3ACA929D2100336B00032BC0 /* Util.swift */,
 				3ADDD90C2100ED7500B36A0F /* Extensions.swift */,
 				3AC8C6551E60B8FC00032665 /* URL_Food.swift */,
+				3AD5641D21034E8D00CFA682 /* CircularLabel.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -647,6 +650,7 @@
 				3AC0F4FA2100E3AA007DFC1D /* PeopleAndStoriesProtocols.swift in Sources */,
 				3ABED6382101859400A26167 /* PeopleNameStories.swift in Sources */,
 				3AB4D8AB20FD15FD0002B891 /* NavigationViewController.swift in Sources */,
+				3AD5641E21034E8D00CFA682 /* CircularLabel.swift in Sources */,
 				3AB4D8A120FD0BBC0002B891 /* HomeInteractor.swift in Sources */,
 				3AD22EB921023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift in Sources */,
 				3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */,

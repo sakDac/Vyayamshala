@@ -25,6 +25,11 @@ class GymAlternativeHomeRemediesViewController: UIViewController, GymAlternative
     
     @IBOutlet weak var collectionView: UICollectionView!
     
+    @IBOutlet weak var headerLbl: UILabel!
+    
+    @IBOutlet weak var descriptionTextView: UITextView!
+    
+    
     let cellIdentifier = "GymAletnativesHomeRemediesCollectionViewCell"
     
     let size = UIScreen.main.bounds.width/3
@@ -35,12 +40,18 @@ class GymAlternativeHomeRemediesViewController: UIViewController, GymAlternative
             self.dataList = HomeRemedy.getData()
         }
         self.dataList = GymAlternatives.getData()
+        self.setUIData(model: self.dataList[0])
     }
+    
+    func setUIData(model: Model) {
+        self.headerLbl.text = model.entity
+        self.descriptionTextView.text = model.description
+    }
+    
 }
 
 extension GymAlternativeHomeRemediesViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
- 
-    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataList.count
     }
@@ -55,5 +66,9 @@ extension GymAlternativeHomeRemediesViewController: UICollectionViewDelegate, UI
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: self.size, height: self.size)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.setUIData(model: self.dataList[indexPath.row])
     }
 }
