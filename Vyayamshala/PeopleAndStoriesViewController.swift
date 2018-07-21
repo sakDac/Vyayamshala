@@ -19,16 +19,8 @@ class PeopleAndStoriesViewController: UIViewController, PeopleAndStoriesViewProt
 	override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "People And Stories"
-        self.peopleStoriesList = PeopleNameStories.getPeopleNameAndStories()
-//        self.navigationController?.navigationBar.prefersLargeTitles = false
-//        self.navigationController?.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(self.someFunc))
-        
+        self.peopleStoriesList = PeopleNameStories.getPeopleNameAndStories()        
     }
-//    
-//    @objc func someFunc()  {
-//        
-//    }
-
 }
 
 // StoriesTableViewCell

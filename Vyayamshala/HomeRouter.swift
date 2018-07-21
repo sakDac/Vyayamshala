@@ -14,7 +14,7 @@ class HomeRouter {
     
     weak var viewController: HomeViewController?
     
-    static func createModule(vc: HomeViewController) -> HomeViewController {
+    static func createModule(vc: HomeViewController) /*-> HomeViewController */{
         // Change to get view from storyboard if not using progammatic UI
         let view = vc //HomeViewController(nibName: nil, bundle: nil)
         let interactor = HomeInteractor()
@@ -24,7 +24,7 @@ class HomeRouter {
         view.presenter = presenter
         interactor.presenter = presenter
         router.viewController = view
-        return view
+        //return view
     }
 }
 
@@ -40,7 +40,8 @@ extension HomeRouter: HomeWireframeProtocol {
     }
     
     func routeToGymAlternatives() {
-        
+        let vc = GymAlternativeHomeRemediesRouter.createModule()
+        self.viewController?.navigationController?.pushViewController(vc, animated: true)
     }
     
     func routeToFood() {

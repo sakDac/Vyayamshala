@@ -42,6 +42,13 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.presenter?.peopleAndStories()
+        switch indexPath.row {
+        case 0:
+            self.presenter?.peopleAndStories()
+        case 1:
+            self.presenter?.gymAlternatives()
+        default:
+            print(" no handler....  ")
+        }
     }
 }

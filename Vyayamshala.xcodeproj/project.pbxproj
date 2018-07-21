@@ -11,8 +11,8 @@
 		3A4BDD4D1E45FDCF0037E266 /* FitnessViewCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BDD4C1E45FDCF0037E266 /* FitnessViewCollectionController.swift */; };
 		3A4BDD4F1E462BB90037E266 /* FitnessCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BDD4E1E462BB90037E266 /* FitnessCollectionViewCell.swift */; };
 		3A4BDD511E464C310037E266 /* FitnessDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BDD501E464C310037E266 /* FitnessDetailsViewController.swift */; };
-		3A5F64051E54CDBD000FFA67 /* GymAlternatives.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5F64041E54CDBD000FFA67 /* GymAlternatives.storyboard */; };
-		3A5F64071E54CE7D000FFA67 /* GymAletnativesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5F64061E54CE7C000FFA67 /* GymAletnativesViewController.swift */; };
+		3A9A59892102FC32001230D2 /* HomeRemedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A59882102FC32001230D2 /* HomeRemedy.swift */; };
+		3A9A598D2103030C001230D2 /* GymAlternatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A598C2103030C001230D2 /* GymAlternatives.swift */; };
 		3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4770F1E61898C003AB322 /* URL_Gym.swift */; };
 		3AB3FDC01E3C8B8900B18B61 /* Fitness.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */; };
 		3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */; };
@@ -40,9 +40,14 @@
 		3AC0F5022100E590007DFC1D /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F5012100E590007DFC1D /* StoriesTableViewCell.swift */; };
 		3AC8C6561E60B8FC00032665 /* URL_Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8C6551E60B8FC00032665 /* URL_Food.swift */; };
 		3ACA929E2100336B00032BC0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA929D2100336B00032BC0 /* Util.swift */; };
+		3AD22EB621023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB021023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift */; };
+		3AD22EB721023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB121023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift */; };
+		3AD22EB821023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB221023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift */; };
+		3AD22EB921023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB321023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift */; };
+		3AD22EBA21023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB421023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift */; };
+		3AD22EBF2102410000CCE4AE /* GymAletnativesHomeRemediesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EBE2102410000CCE4AE /* GymAletnativesHomeRemediesCollectionViewCell.swift */; };
 		3ADDD90D2100ED7500B36A0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDD90C2100ED7500B36A0F /* Extensions.swift */; };
 		3ADDD90F2100F5A100B36A0F /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDD90E2100F5A100B36A0F /* PeopleCollectionViewCell.swift */; };
-		3AE83FE41E578149009F0676 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE83FE31E578149009F0676 /* DescriptionTableViewCell.swift */; };
 		8E207DCDC6B2E9060A5AFC84 /* Pods_VyayamshalaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92AEA3364CB028F59D3B4BE /* Pods_VyayamshalaTests.framework */; };
 		8FFA6182729C4B7BA5CB6945 /* Pods_VyayamshalaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BF236C1FD0B2D84D47FA55 /* Pods_VyayamshalaUITests.framework */; };
 		B8CF1CFE802B882AD9159AB0 /* Pods_Vyayamshala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1306E50B99BBD5C7530D9396 /* Pods_Vyayamshala.framework */; };
@@ -73,8 +78,8 @@
 		3A4BDD4C1E45FDCF0037E266 /* FitnessViewCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessViewCollectionController.swift; sourceTree = "<group>"; };
 		3A4BDD4E1E462BB90037E266 /* FitnessCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessCollectionViewCell.swift; sourceTree = "<group>"; };
 		3A4BDD501E464C310037E266 /* FitnessDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessDetailsViewController.swift; sourceTree = "<group>"; };
-		3A5F64041E54CDBD000FFA67 /* GymAlternatives.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GymAlternatives.storyboard; sourceTree = "<group>"; };
-		3A5F64061E54CE7C000FFA67 /* GymAletnativesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymAletnativesViewController.swift; sourceTree = "<group>"; };
+		3A9A59882102FC32001230D2 /* HomeRemedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemedy.swift; sourceTree = "<group>"; };
+		3A9A598C2103030C001230D2 /* GymAlternatives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymAlternatives.swift; sourceTree = "<group>"; };
 		3AA4770F1E61898C003AB322 /* URL_Gym.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Gym.swift; sourceTree = "<group>"; };
 		3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fitness.storyboard; sourceTree = "<group>"; };
 		3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VyayamshalaConstants.swift; sourceTree = "<group>"; };
@@ -108,9 +113,14 @@
 		3AC0F5012100E590007DFC1D /* StoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewCell.swift; sourceTree = "<group>"; };
 		3AC8C6551E60B8FC00032665 /* URL_Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Food.swift; sourceTree = "<group>"; };
 		3ACA929D2100336B00032BC0 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		3AD22EB021023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesInteractor.swift; sourceTree = "<group>"; };
+		3AD22EB121023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesPresenter.swift; sourceTree = "<group>"; };
+		3AD22EB221023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesProtocols.swift; sourceTree = "<group>"; };
+		3AD22EB321023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesRouter.swift; sourceTree = "<group>"; };
+		3AD22EB421023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesViewController.swift; sourceTree = "<group>"; };
+		3AD22EBE2102410000CCE4AE /* GymAletnativesHomeRemediesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAletnativesHomeRemediesCollectionViewCell.swift; sourceTree = "<group>"; };
 		3ADDD90C2100ED7500B36A0F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3ADDD90E2100F5A100B36A0F /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
-		3AE83FE31E578149009F0676 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		A3362A70B58014E0B59F8208 /* Pods-Vyayamshala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vyayamshala.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vyayamshala/Pods-Vyayamshala.release.xcconfig"; sourceTree = "<group>"; };
 		C2F75410F963C8BAC099F4CA /* Pods-VyayamshalaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VyayamshalaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VyayamshalaUITests/Pods-VyayamshalaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6BF236C1FD0B2D84D47FA55 /* Pods_VyayamshalaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VyayamshalaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,9 +161,13 @@
 		3A1D94991E46E98100CDF890 /* GymAlernatives */ = {
 			isa = PBXGroup;
 			children = (
-				3A5F64041E54CDBD000FFA67 /* GymAlternatives.storyboard */,
-				3A5F64061E54CE7C000FFA67 /* GymAletnativesViewController.swift */,
-				3AE83FE31E578149009F0676 /* DescriptionTableViewCell.swift */,
+				3AD22EBC210240A200CCE4AE /* cell */,
+				3AD22EBD210240AF00CCE4AE /* Model */,
+				3AD22EB021023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift */,
+				3AD22EB121023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift */,
+				3AD22EB221023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift */,
+				3AD22EB321023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift */,
+				3AD22EB421023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift */,
 			);
 			name = GymAlernatives;
 			sourceTree = "<group>";
@@ -303,6 +317,23 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		3AD22EBC210240A200CCE4AE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AD22EBE2102410000CCE4AE /* GymAletnativesHomeRemediesCollectionViewCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		3AD22EBD210240AF00CCE4AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A9A59882102FC32001230D2 /* HomeRemedy.swift */,
+				3A9A598C2103030C001230D2 /* GymAlternatives.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		6C465C14259981A698571BDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,7 +429,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "saket bhushan";
 				TargetAttributes = {
 					3ABA55EA1E3BCD4D00CFD24D = {
@@ -449,7 +480,6 @@
 				3ABA55FC1E3BCD4E00CFD24D /* LaunchScreen.storyboard in Resources */,
 				3AB3FDC01E3C8B8900B18B61 /* Fitness.storyboard in Resources */,
 				3ABA55F91E3BCD4E00CFD24D /* Assets.xcassets in Resources */,
-				3A5F64051E54CDBD000FFA67 /* GymAlternatives.storyboard in Resources */,
 				3AB4D8A820FD0C0C0002B891 /* Vyayamshala.storyboard in Resources */,
 				3A3728AD1E5032CE004D92FB /* GoogleService-Info.plist in Resources */,
 			);
@@ -617,8 +647,8 @@
 				3AC0F4FA2100E3AA007DFC1D /* PeopleAndStoriesProtocols.swift in Sources */,
 				3ABED6382101859400A26167 /* PeopleNameStories.swift in Sources */,
 				3AB4D8AB20FD15FD0002B891 /* NavigationViewController.swift in Sources */,
-				3AE83FE41E578149009F0676 /* DescriptionTableViewCell.swift in Sources */,
 				3AB4D8A120FD0BBC0002B891 /* HomeInteractor.swift in Sources */,
+				3AD22EB921023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift in Sources */,
 				3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */,
 				3AB4D8A320FD0BBC0002B891 /* HomeProtocols.swift in Sources */,
 				3ACA929E2100336B00032BC0 /* Util.swift in Sources */,
@@ -626,19 +656,25 @@
 				3AC0F4FB2100E3AA007DFC1D /* PeopleAndStoriesRouter.swift in Sources */,
 				3AB4D8A520FD0BBC0002B891 /* HomeViewController.swift in Sources */,
 				3AC0F4F92100E3AA007DFC1D /* PeopleAndStoriesPresenter.swift in Sources */,
+				3AD22EB821023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift in Sources */,
 				3ABE03BE20FDA44E00D0208F /* HomeTableViewCell.swift in Sources */,
 				3AC0F5022100E590007DFC1D /* StoriesTableViewCell.swift in Sources */,
+				3AD22EB621023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift in Sources */,
 				3AC8C6561E60B8FC00032665 /* URL_Food.swift in Sources */,
 				3ABA55EF1E3BCD4E00CFD24D /* AppDelegate.swift in Sources */,
 				3ADDD90F2100F5A100B36A0F /* PeopleCollectionViewCell.swift in Sources */,
+				3AD22EBF2102410000CCE4AE /* GymAletnativesHomeRemediesCollectionViewCell.swift in Sources */,
 				3AC0F4F82100E3AA007DFC1D /* PeopleAndStoriesInteractor.swift in Sources */,
 				3AC0F5002100E57A007DFC1D /* PeopleScrollTableViewCell.swift in Sources */,
+				3A9A598D2103030C001230D2 /* GymAlternatives.swift in Sources */,
+				3A9A59892102FC32001230D2 /* HomeRemedy.swift in Sources */,
 				3A4BDD511E464C310037E266 /* FitnessDetailsViewController.swift in Sources */,
-				3A5F64071E54CE7D000FFA67 /* GymAletnativesViewController.swift in Sources */,
+				3AD22EB721023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift in Sources */,
 				3A4BDD4F1E462BB90037E266 /* FitnessCollectionViewCell.swift in Sources */,
 				3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */,
 				3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */,
 				3AC0F4FC2100E3AA007DFC1D /* PeopleAndStoriesViewController.swift in Sources */,
+				3AD22EBA21023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift in Sources */,
 				3A4BDD4D1E45FDCF0037E266 /* FitnessViewCollectionController.swift in Sources */,
 				3ABA55F71E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld in Sources */,
 				3AB4D8A420FD0BBC0002B891 /* HomeRouter.swift in Sources */,
@@ -697,15 +733,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -747,15 +791,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
