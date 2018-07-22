@@ -23,12 +23,6 @@ protocol HomePresenterProtocol: class {
     func foodNFitness(option: FoodNFitness)
 }
 
-//MARK: Interactor -
-protocol HomeInteractorProtocol: class {
-
-  var presenter: HomePresenterProtocol?  { get set }
-}
-
 //MARK: View -
 protocol HomeViewProtocol: class {
 

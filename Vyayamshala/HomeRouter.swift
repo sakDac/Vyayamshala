@@ -17,12 +17,10 @@ class HomeRouter {
     static func createModule(vc: HomeViewController) /*-> HomeViewController */{
         // Change to get view from storyboard if not using progammatic UI
         let view = vc //HomeViewController(nibName: nil, bundle: nil)
-        let interactor = HomeInteractor()
         let router = HomeRouter()
-        let presenter = HomePresenter(interface: view, interactor: interactor, router: router)
+        let presenter = HomePresenter(interface: view, router: router)
         
         view.presenter = presenter
-        interactor.presenter = presenter
         router.viewController = view
         //return view
     }

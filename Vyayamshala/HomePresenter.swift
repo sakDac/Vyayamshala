@@ -13,12 +13,10 @@ import UIKit
 class HomePresenter {
     
     weak private var view: HomeViewProtocol?
-    var interactor: HomeInteractorProtocol?
     private let router: HomeWireframeProtocol
 
-    init(interface: HomeViewProtocol, interactor: HomeInteractorProtocol?, router: HomeWireframeProtocol) {
+    init(interface: HomeViewProtocol, router: HomeWireframeProtocol) {
         self.view = interface
-        self.interactor = interactor
         self.router = router
     }
 

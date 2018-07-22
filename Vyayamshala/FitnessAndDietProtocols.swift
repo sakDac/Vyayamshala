@@ -31,12 +31,6 @@ protocol FitnessAndDietPresenterProtocol: class {
 
 }
 
-//MARK: Interactor -
-protocol FitnessAndDietInteractorProtocol: class {
-
-  var presenter: FitnessAndDietPresenterProtocol?  { get set }
-}
-
 //MARK: View -
 protocol FitnessAndDietViewProtocol: class {
 

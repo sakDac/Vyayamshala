@@ -17,12 +17,10 @@ class FitnessAndDietRouter: FitnessAndDietWireframeProtocol {
     static func createModule() -> FitnessAndDietViewController {
         // Change to get view from storyboard if not using progammatic UI
         let view = FitnessAndDietViewController.createInstance() as! FitnessAndDietViewController
-        let interactor = FitnessAndDietInteractor()
         let router = FitnessAndDietRouter()
-        let presenter = FitnessAndDietPresenter(interface: view, interactor: interactor, router: router)
+        let presenter = FitnessAndDietPresenter(interface: view, router: router)
         
         view.presenter = presenter
-        interactor.presenter = presenter
         router.viewController = view
         
         return view

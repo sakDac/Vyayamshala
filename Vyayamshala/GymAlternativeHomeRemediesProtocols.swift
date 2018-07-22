@@ -24,12 +24,6 @@ protocol GymAlternativeHomeRemediesPresenterProtocol: class {
 
 }
 
-//MARK: Interactor -
-protocol GymAlternativeHomeRemediesInteractorProtocol: class {
-
-  var presenter: GymAlternativeHomeRemediesPresenterProtocol?  { get set }
-}
-
 //MARK: View -
 protocol GymAlternativeHomeRemediesViewProtocol: class {
 

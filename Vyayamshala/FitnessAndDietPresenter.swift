@@ -13,12 +13,10 @@ import UIKit
 class FitnessAndDietPresenter: FitnessAndDietPresenterProtocol {
 
     weak private var view: FitnessAndDietViewProtocol?
-    var interactor: FitnessAndDietInteractorProtocol?
     private let router: FitnessAndDietWireframeProtocol
 
-    init(interface: FitnessAndDietViewProtocol, interactor: FitnessAndDietInteractorProtocol?, router: FitnessAndDietWireframeProtocol) {
+    init(interface: FitnessAndDietViewProtocol, router: FitnessAndDietWireframeProtocol) {
         self.view = interface
-        self.interactor = interactor
         self.router = router
     }
 

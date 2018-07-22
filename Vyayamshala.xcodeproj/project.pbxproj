@@ -16,7 +16,6 @@
 		3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4770F1E61898C003AB322 /* URL_Gym.swift */; };
 		3AB3FDC01E3C8B8900B18B61 /* Fitness.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */; };
 		3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */; };
-		3AB4D8A120FD0BBC0002B891 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89B20FD0BBC0002B891 /* HomeInteractor.swift */; };
 		3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */; };
 		3AB4D8A320FD0BBC0002B891 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89D20FD0BBC0002B891 /* HomeProtocols.swift */; };
 		3AB4D8A420FD0BBC0002B891 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89E20FD0BBC0002B891 /* HomeRouter.swift */; };
@@ -38,7 +37,6 @@
 		3AC0F4FC2100E3AA007DFC1D /* PeopleAndStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F4F62100E3AA007DFC1D /* PeopleAndStoriesViewController.swift */; };
 		3AC0F5002100E57A007DFC1D /* PeopleScrollTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F4FF2100E57A007DFC1D /* PeopleScrollTableViewCell.swift */; };
 		3AC0F5022100E590007DFC1D /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0F5012100E590007DFC1D /* StoriesTableViewCell.swift */; };
-		3AC3433D21035FD700019440 /* FitnessAndDietInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3433721035FD700019440 /* FitnessAndDietInteractor.swift */; };
 		3AC3433E21035FD700019440 /* FitnessAndDietPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3433821035FD700019440 /* FitnessAndDietPresenter.swift */; };
 		3AC3433F21035FD700019440 /* FitnessAndDietProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3433921035FD700019440 /* FitnessAndDietProtocols.swift */; };
 		3AC3434021035FD700019440 /* FitnessAndDietRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3433A21035FD700019440 /* FitnessAndDietRouter.swift */; };
@@ -49,7 +47,6 @@
 		3AC3434D2103805100019440 /* FoodNFitnessCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3434C2103805100019440 /* FoodNFitnessCollectionViewCell.swift */; };
 		3AC8C6561E60B8FC00032665 /* URL_Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8C6551E60B8FC00032665 /* URL_Food.swift */; };
 		3ACA929E2100336B00032BC0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA929D2100336B00032BC0 /* Util.swift */; };
-		3AD22EB621023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB021023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift */; };
 		3AD22EB721023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB121023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift */; };
 		3AD22EB821023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB221023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift */; };
 		3AD22EB921023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD22EB321023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift */; };
@@ -93,7 +90,6 @@
 		3AA4770F1E61898C003AB322 /* URL_Gym.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Gym.swift; sourceTree = "<group>"; };
 		3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fitness.storyboard; sourceTree = "<group>"; };
 		3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VyayamshalaConstants.swift; sourceTree = "<group>"; };
-		3AB4D89B20FD0BBC0002B891 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		3AB4D89D20FD0BBC0002B891 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
 		3AB4D89E20FD0BBC0002B891 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
@@ -121,7 +117,6 @@
 		3AC0F4F62100E3AA007DFC1D /* PeopleAndStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAndStoriesViewController.swift; sourceTree = "<group>"; };
 		3AC0F4FF2100E57A007DFC1D /* PeopleScrollTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleScrollTableViewCell.swift; sourceTree = "<group>"; };
 		3AC0F5012100E590007DFC1D /* StoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewCell.swift; sourceTree = "<group>"; };
-		3AC3433721035FD700019440 /* FitnessAndDietInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAndDietInteractor.swift; sourceTree = "<group>"; };
 		3AC3433821035FD700019440 /* FitnessAndDietPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAndDietPresenter.swift; sourceTree = "<group>"; };
 		3AC3433921035FD700019440 /* FitnessAndDietProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAndDietProtocols.swift; sourceTree = "<group>"; };
 		3AC3433A21035FD700019440 /* FitnessAndDietRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAndDietRouter.swift; sourceTree = "<group>"; };
@@ -132,7 +127,6 @@
 		3AC3434C2103805100019440 /* FoodNFitnessCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNFitnessCollectionViewCell.swift; sourceTree = "<group>"; };
 		3AC8C6551E60B8FC00032665 /* URL_Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Food.swift; sourceTree = "<group>"; };
 		3ACA929D2100336B00032BC0 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
-		3AD22EB021023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesInteractor.swift; sourceTree = "<group>"; };
 		3AD22EB121023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesPresenter.swift; sourceTree = "<group>"; };
 		3AD22EB221023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesProtocols.swift; sourceTree = "<group>"; };
 		3AD22EB321023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAlternativeHomeRemediesRouter.swift; sourceTree = "<group>"; };
@@ -183,7 +177,6 @@
 			children = (
 				3AD22EBC210240A200CCE4AE /* cell */,
 				3AD22EBD210240AF00CCE4AE /* Model */,
-				3AD22EB021023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift */,
 				3AD22EB121023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift */,
 				3AD22EB221023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift */,
 				3AD22EB321023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift */,
@@ -201,7 +194,6 @@
 				3A4BDD4C1E45FDCF0037E266 /* FitnessViewCollectionController.swift */,
 				3A4BDD4E1E462BB90037E266 /* FitnessCollectionViewCell.swift */,
 				3A4BDD501E464C310037E266 /* FitnessDetailsViewController.swift */,
-				3AC3433721035FD700019440 /* FitnessAndDietInteractor.swift */,
 				3AC3433821035FD700019440 /* FitnessAndDietPresenter.swift */,
 				3AC3433921035FD700019440 /* FitnessAndDietProtocols.swift */,
 				3AC3433A21035FD700019440 /* FitnessAndDietRouter.swift */,
@@ -215,7 +207,6 @@
 			children = (
 				3AC343432103637C00019440 /* Model */,
 				3ABE03BC20FDA41400D0208F /* Cell */,
-				3AB4D89B20FD0BBC0002B891 /* HomeInteractor.swift */,
 				3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */,
 				3AB4D89D20FD0BBC0002B891 /* HomeProtocols.swift */,
 				3AB4D89E20FD0BBC0002B891 /* HomeRouter.swift */,
@@ -702,7 +693,6 @@
 				3ABED6382101859400A26167 /* PeopleNameStories.swift in Sources */,
 				3AB4D8AB20FD15FD0002B891 /* NavigationViewController.swift in Sources */,
 				3AD5641E21034E8D00CFA682 /* CircularLabel.swift in Sources */,
-				3AB4D8A120FD0BBC0002B891 /* HomeInteractor.swift in Sources */,
 				3AD22EB921023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift in Sources */,
 				3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */,
 				3AB4D8A320FD0BBC0002B891 /* HomeProtocols.swift in Sources */,
@@ -717,7 +707,6 @@
 				3AD22EB821023F5600CCE4AE /* GymAlternativeHomeRemediesProtocols.swift in Sources */,
 				3ABE03BE20FDA44E00D0208F /* HomeTableViewCell.swift in Sources */,
 				3AC0F5022100E590007DFC1D /* StoriesTableViewCell.swift in Sources */,
-				3AD22EB621023F5600CCE4AE /* GymAlternativeHomeRemediesInteractor.swift in Sources */,
 				3AC8C6561E60B8FC00032665 /* URL_Food.swift in Sources */,
 				3ABA55EF1E3BCD4E00CFD24D /* AppDelegate.swift in Sources */,
 				3ADDD90F2100F5A100B36A0F /* PeopleCollectionViewCell.swift in Sources */,
@@ -738,7 +727,6 @@
 				3AC3434821037C0F00019440 /* Food.swift in Sources */,
 				3AD22EBA21023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift in Sources */,
 				3A4BDD4D1E45FDCF0037E266 /* FitnessViewCollectionController.swift in Sources */,
-				3AC3433D21035FD700019440 /* FitnessAndDietInteractor.swift in Sources */,
 				3ABA55F71E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld in Sources */,
 				3AC343452103639200019440 /* HomeModel.swift in Sources */,
 				3AB4D8A420FD0BBC0002B891 /* HomeRouter.swift in Sources */,

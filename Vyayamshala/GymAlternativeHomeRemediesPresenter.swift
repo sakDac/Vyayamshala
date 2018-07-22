@@ -12,12 +12,10 @@ import UIKit
 
 class GymAlternativeHomeRemediesPresenter: GymAlternativeHomeRemediesPresenterProtocol {
     weak private var view: GymAlternativeHomeRemediesViewProtocol?
-    var interactor: GymAlternativeHomeRemediesInteractorProtocol?
     private let router: GymAlternativeHomeRemediesWireframeProtocol
 
-    init(interface: GymAlternativeHomeRemediesViewProtocol, interactor: GymAlternativeHomeRemediesInteractorProtocol?, router: GymAlternativeHomeRemediesWireframeProtocol) {
+    init(interface: GymAlternativeHomeRemediesViewProtocol, router: GymAlternativeHomeRemediesWireframeProtocol) {
         self.view = interface
-        self.interactor = interactor
         self.router = router
     }
 

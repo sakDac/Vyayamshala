@@ -16,12 +16,9 @@ class GymAlternativeHomeRemediesRouter: GymAlternativeHomeRemediesWireframeProto
     
     static func createModule() -> GymAlternativeHomeRemediesViewController {
         let view = GymAlternativeHomeRemediesViewController.createInstance() as! GymAlternativeHomeRemediesViewController
-        let interactor = GymAlternativeHomeRemediesInteractor()
         let router = GymAlternativeHomeRemediesRouter()
-        let presenter = GymAlternativeHomeRemediesPresenter(interface: view, interactor: interactor, router: router)
-        
+        let presenter = GymAlternativeHomeRemediesPresenter(interface: view, router: router)
         view.presenter = presenter
-        interactor.presenter = presenter
         router.viewController = view
         
         return view
