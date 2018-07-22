@@ -8,13 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3A3728AD1E5032CE004D92FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */; };
-		3A4BDD4D1E45FDCF0037E266 /* FitnessViewCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BDD4C1E45FDCF0037E266 /* FitnessViewCollectionController.swift */; };
-		3A4BDD4F1E462BB90037E266 /* FitnessCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BDD4E1E462BB90037E266 /* FitnessCollectionViewCell.swift */; };
-		3A4BDD511E464C310037E266 /* FitnessDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BDD501E464C310037E266 /* FitnessDetailsViewController.swift */; };
 		3A9A59892102FC32001230D2 /* HomeRemedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A59882102FC32001230D2 /* HomeRemedy.swift */; };
 		3A9A598D2103030C001230D2 /* GymAlternatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A598C2103030C001230D2 /* GymAlternatives.swift */; };
 		3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4770F1E61898C003AB322 /* URL_Gym.swift */; };
-		3AB3FDC01E3C8B8900B18B61 /* Fitness.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */; };
 		3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */; };
 		3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */; };
 		3AB4D8A320FD0BBC0002B891 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4D89D20FD0BBC0002B891 /* HomeProtocols.swift */; };
@@ -82,13 +78,9 @@
 		1306E50B99BBD5C7530D9396 /* Pods_Vyayamshala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vyayamshala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A21FBA61E5F807F002E3220 /* Vyayamshala-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vyayamshala-Bridging-Header.h"; sourceTree = "<group>"; };
 		3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		3A4BDD4C1E45FDCF0037E266 /* FitnessViewCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessViewCollectionController.swift; sourceTree = "<group>"; };
-		3A4BDD4E1E462BB90037E266 /* FitnessCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessCollectionViewCell.swift; sourceTree = "<group>"; };
-		3A4BDD501E464C310037E266 /* FitnessDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessDetailsViewController.swift; sourceTree = "<group>"; };
 		3A9A59882102FC32001230D2 /* HomeRemedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemedy.swift; sourceTree = "<group>"; };
 		3A9A598C2103030C001230D2 /* GymAlternatives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymAlternatives.swift; sourceTree = "<group>"; };
 		3AA4770F1E61898C003AB322 /* URL_Gym.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Gym.swift; sourceTree = "<group>"; };
-		3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fitness.storyboard; sourceTree = "<group>"; };
 		3AB3FDCA1E3D0B1C00B18B61 /* VyayamshalaConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VyayamshalaConstants.swift; sourceTree = "<group>"; };
 		3AB4D89C20FD0BBC0002B891 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		3AB4D89D20FD0BBC0002B891 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
@@ -190,10 +182,6 @@
 			children = (
 				3AC3434B2103802D00019440 /* cell */,
 				3AC3434621037BE900019440 /* Model */,
-				3AB3FDBF1E3C8B8900B18B61 /* Fitness.storyboard */,
-				3A4BDD4C1E45FDCF0037E266 /* FitnessViewCollectionController.swift */,
-				3A4BDD4E1E462BB90037E266 /* FitnessCollectionViewCell.swift */,
-				3A4BDD501E464C310037E266 /* FitnessDetailsViewController.swift */,
 				3AC3433821035FD700019440 /* FitnessAndDietPresenter.swift */,
 				3AC3433921035FD700019440 /* FitnessAndDietProtocols.swift */,
 				3AC3433A21035FD700019440 /* FitnessAndDietRouter.swift */,
@@ -523,7 +511,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ABA55FC1E3BCD4E00CFD24D /* LaunchScreen.storyboard in Resources */,
-				3AB3FDC01E3C8B8900B18B61 /* Fitness.storyboard in Resources */,
 				3ABA55F91E3BCD4E00CFD24D /* Assets.xcassets in Resources */,
 				3AB4D8A820FD0C0C0002B891 /* Vyayamshala.storyboard in Resources */,
 				3A3728AD1E5032CE004D92FB /* GoogleService-Info.plist in Resources */,
@@ -717,16 +704,13 @@
 				3A9A598D2103030C001230D2 /* GymAlternatives.swift in Sources */,
 				3A9A59892102FC32001230D2 /* HomeRemedy.swift in Sources */,
 				3AC3433F21035FD700019440 /* FitnessAndDietProtocols.swift in Sources */,
-				3A4BDD511E464C310037E266 /* FitnessDetailsViewController.swift in Sources */,
 				3AD22EB721023F5600CCE4AE /* GymAlternativeHomeRemediesPresenter.swift in Sources */,
-				3A4BDD4F1E462BB90037E266 /* FitnessCollectionViewCell.swift in Sources */,
 				3AA477101E61898C003AB322 /* URL_Gym.swift in Sources */,
 				3AB3FDCB1E3D0B1C00B18B61 /* VyayamshalaConstants.swift in Sources */,
 				3AC0F4FC2100E3AA007DFC1D /* PeopleAndStoriesViewController.swift in Sources */,
 				3AC3434D2103805100019440 /* FoodNFitnessCollectionViewCell.swift in Sources */,
 				3AC3434821037C0F00019440 /* Food.swift in Sources */,
 				3AD22EBA21023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift in Sources */,
-				3A4BDD4D1E45FDCF0037E266 /* FitnessViewCollectionController.swift in Sources */,
 				3ABA55F71E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld in Sources */,
 				3AC343452103639200019440 /* HomeModel.swift in Sources */,
 				3AB4D8A420FD0BBC0002B891 /* HomeRouter.swift in Sources */,
