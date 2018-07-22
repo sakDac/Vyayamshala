@@ -12,6 +12,6 @@ class NavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationBar.tintColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+//        self.navigationBar.tintColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
     }
 }

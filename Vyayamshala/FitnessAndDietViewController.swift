@@ -22,19 +22,51 @@ class FitnessAndDietViewController: UIViewController, FitnessAndDietViewProtocol
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var dataList: [FoodNFitnessModel]!
+    @IBOutlet weak var segmentControl: UISegmentedControl!
     
+    var dataList: [FoodNFitnessModel]!
     
 	override func viewDidLoad() {
         super.viewDidLoad()
         if option == FoodNFitness.Fitness {
             self.title = "Fitness"
             self.dataList = Fitness.getMaleList()
+            self.segmentControl.setTitle("Male", forSegmentAt: 0)
+            self.segmentControl.setTitle("Female", forSegmentAt: 1)
         } else {
-            self.dataList = Food.getVegList()
             self.title = "Food"
+            self.segmentControl.setTitle("Veg", forSegmentAt: 0)
+            self.segmentControl.setTitle("Non-Veg", forSegmentAt: 1)
+            
+            self.dataList = Food.getVegList()
+            
         }
     }
+    
+    
+    
+    @IBAction func segmentControlDidChange(_ sender: UISegmentedControl) {
+        if option == FoodNFitness.Fitness {
+            if sender.selectedSegmentIndex == 0 {
+                self.dataList = Fitness.getMaleList()
+            } else {
+                self.dataList = Fitness.getFemaleList()
+            }
+        } else {
+            if sender.selectedSegmentIndex == 0 {
+                self.dataList = Food.getVegList()
+            } else {
+                self.dataList = Food.getNonVegList()
+            }
+        }
+        self.collectionView.reloadData()
+        if (self.collectionView?.scrollsToTop)! {
+            self.collectionView?.scrollToItem(at: IndexPath(row: 0, section: 0),
+                                              at: .top,
+                                              animated: false)
+        }
+    }
+    
 }
 
 extension FitnessAndDietViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -52,7 +84,7 @@ extension FitnessAndDietViewController: UICollectionViewDelegate, UICollectionVi
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
     {
-        let size = UIScreen.main.bounds.width/2
-        return CGSize(width: size, height: size)
+        let size = (9*UIScreen.main.bounds.width)/10
+        return CGSize(width: size, height: size/2)
     }
 }
