@@ -87,4 +87,8 @@ extension FitnessAndDietViewController: UICollectionViewDelegate, UICollectionVi
         let size = (9*UIScreen.main.bounds.width)/10
         return CGSize(width: size, height: size/2)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.presenter?.didSeletItem(fitness: self.dataList[indexPath.row])
+    }
 }

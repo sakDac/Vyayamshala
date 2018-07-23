@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A17A90E21057724001BE8FE /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17A90821057724001BE8FE /* DetailsPresenter.swift */; };
+		3A17A90F21057724001BE8FE /* DetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17A90921057724001BE8FE /* DetailsProtocols.swift */; };
+		3A17A91021057724001BE8FE /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17A90A21057724001BE8FE /* DetailsRouter.swift */; };
+		3A17A91121057724001BE8FE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17A90B21057724001BE8FE /* DetailsViewController.swift */; };
 		3A3728AD1E5032CE004D92FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */; };
 		3A9A59892102FC32001230D2 /* HomeRemedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A59882102FC32001230D2 /* HomeRemedy.swift */; };
 		3A9A598D2103030C001230D2 /* GymAlternatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A598C2103030C001230D2 /* GymAlternatives.swift */; };
@@ -76,6 +80,10 @@
 /* Begin PBXFileReference section */
 		0DFD41AAD5870B3B00E1E0F8 /* Pods-Vyayamshala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vyayamshala.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vyayamshala/Pods-Vyayamshala.debug.xcconfig"; sourceTree = "<group>"; };
 		1306E50B99BBD5C7530D9396 /* Pods_Vyayamshala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vyayamshala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A17A90821057724001BE8FE /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		3A17A90921057724001BE8FE /* DetailsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProtocols.swift; sourceTree = "<group>"; };
+		3A17A90A21057724001BE8FE /* DetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
+		3A17A90B21057724001BE8FE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3A21FBA61E5F807F002E3220 /* Vyayamshala-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vyayamshala-Bridging-Header.h"; sourceTree = "<group>"; };
 		3A3728AC1E5032CE004D92FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A9A59882102FC32001230D2 /* HomeRemedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemedy.swift; sourceTree = "<group>"; };
@@ -164,6 +172,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A17A90621057706001BE8FE /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				3A17A90821057724001BE8FE /* DetailsPresenter.swift */,
+				3A17A90921057724001BE8FE /* DetailsProtocols.swift */,
+				3A17A90A21057724001BE8FE /* DetailsRouter.swift */,
+				3A17A90B21057724001BE8FE /* DetailsViewController.swift */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
 		3A1D94991E46E98100CDF890 /* GymAlernatives */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +256,7 @@
 		3ABA55ED1E3BCD4E00CFD24D /* Vyayamshala */ = {
 			isa = PBXGroup;
 			children = (
+				3A17A90621057706001BE8FE /* Details */,
 				3ABA55EE1E3BCD4E00CFD24D /* AppDelegate.swift */,
 				3AB4D8A720FD0C0C0002B891 /* Vyayamshala.storyboard */,
 				3AC0F4E72100DCFB007DFC1D /* PeopleAndStories */,
@@ -680,13 +700,16 @@
 				3ABED6382101859400A26167 /* PeopleNameStories.swift in Sources */,
 				3AB4D8AB20FD15FD0002B891 /* NavigationViewController.swift in Sources */,
 				3AD5641E21034E8D00CFA682 /* CircularLabel.swift in Sources */,
+				3A17A90F21057724001BE8FE /* DetailsProtocols.swift in Sources */,
 				3AD22EB921023F5600CCE4AE /* GymAlternativeHomeRemediesRouter.swift in Sources */,
 				3AB4D8A220FD0BBC0002B891 /* HomePresenter.swift in Sources */,
 				3AB4D8A320FD0BBC0002B891 /* HomeProtocols.swift in Sources */,
+				3A17A90E21057724001BE8FE /* DetailsPresenter.swift in Sources */,
 				3AC3433E21035FD700019440 /* FitnessAndDietPresenter.swift in Sources */,
 				3ACA929E2100336B00032BC0 /* Util.swift in Sources */,
 				3ADDD90D2100ED7500B36A0F /* Extensions.swift in Sources */,
 				3AC0F4FB2100E3AA007DFC1D /* PeopleAndStoriesRouter.swift in Sources */,
+				3A17A91021057724001BE8FE /* DetailsRouter.swift in Sources */,
 				3AB4D8A520FD0BBC0002B891 /* HomeViewController.swift in Sources */,
 				3AC3434121035FD700019440 /* FitnessAndDietViewController.swift in Sources */,
 				3AC0F4F92100E3AA007DFC1D /* PeopleAndStoriesPresenter.swift in Sources */,
@@ -712,6 +735,7 @@
 				3AC3434821037C0F00019440 /* Food.swift in Sources */,
 				3AD22EBA21023F5600CCE4AE /* GymAlternativeHomeRemediesViewController.swift in Sources */,
 				3ABA55F71E3BCD4E00CFD24D /* Vyayamshala.xcdatamodeld in Sources */,
+				3A17A91121057724001BE8FE /* DetailsViewController.swift in Sources */,
 				3AC343452103639200019440 /* HomeModel.swift in Sources */,
 				3AB4D8A420FD0BBC0002B891 /* HomeRouter.swift in Sources */,
 			);

@@ -24,11 +24,11 @@ protocol FoodNFitnessModel: class {
 
 //MARK: Wireframe -
 protocol FitnessAndDietWireframeProtocol: class {
-
+    func routeToDetails(fitness: FoodNFitnessModel)
 }
 //MARK: Presenter -
 protocol FitnessAndDietPresenterProtocol: class {
-
+    func didSeletItem(fitness: FoodNFitnessModel)
 }
 
 //MARK: View -

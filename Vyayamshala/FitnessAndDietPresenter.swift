@@ -11,7 +11,6 @@
 import UIKit
 
 class FitnessAndDietPresenter: FitnessAndDietPresenterProtocol {
-
     weak private var view: FitnessAndDietViewProtocol?
     private let router: FitnessAndDietWireframeProtocol
 
@@ -20,4 +19,7 @@ class FitnessAndDietPresenter: FitnessAndDietPresenterProtocol {
         self.router = router
     }
 
+    func didSeletItem(fitness: FoodNFitnessModel) {
+        self.router.routeToDetails(fitness: fitness)
+    }
 }

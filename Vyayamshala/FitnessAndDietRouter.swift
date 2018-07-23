@@ -25,4 +25,11 @@ class FitnessAndDietRouter: FitnessAndDietWireframeProtocol {
         
         return view
     }
+    
+    func routeToDetails(fitness: FoodNFitnessModel) {
+        let vc = DetailsRouter.createModule()
+         vc.fitnessDetails = fitness
+        self.viewController?.navigationController?.pushViewController(vc, animated: true)
+        
+    }
 }

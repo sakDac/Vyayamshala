@@ -16,5 +16,5 @@ class PeopleCollectionViewCell: UICollectionViewCell {
     func setData(imgUrl: URL)  {
         self.peopleImg.sd_setImage(with: imgUrl)
     }
-    
+
 }
