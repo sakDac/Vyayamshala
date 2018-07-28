@@ -44,6 +44,11 @@ class GymAlternativeHomeRemediesViewController: UIViewController, GymAlternative
             self.dataList = GymAlternatives.getData()
         }
         self.setUIData(model: self.dataList[0])
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.30) {
+            self.collectionView.reloadData()
+        }
+        
     }
     
     func setUIData(model: Model) {
@@ -62,7 +67,6 @@ extension GymAlternativeHomeRemediesViewController: UICollectionViewDelegate, UI
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: self.cellIdentifier, for: indexPath) as! GymAletnativesHomeRemediesCollectionViewCell
-        cell.layer.cornerRadius = self.size/2
         cell.setData(model: dataList[indexPath.row])
         return cell
     }
